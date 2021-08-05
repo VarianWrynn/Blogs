@@ -109,10 +109,18 @@ bundle exec jekyll serve --safe --trace
 
 <img src="./images/image-20210803135732241.png" alt="image-20210803135732241" style="zoom:80%;" />
 
+
+
+## Adding last modified date to Jekyll
+
+1. [Adding last modified date to Jekyll](https://tomkadwill.com/adding-last-modified-date-to-jekyll)
+2. [How to insert the last updated time-stamp in Jekyll page at build time?](https://stackoverflow.com/questions/36758072/how-to-insert-the-last-updated-time-stamp-in-jekyll-page-at-build-time)
+
 ## References & Connection
 
 1. [如何在 GitHub 上写博客？--知乎](https://www.zhihu.com/question/20962496)
 2. [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
 3. [Ruby官方下载地址](https://rubyinstaller.org/downloads/)
 4. [Step by Step Tutorial--10. Deployment](https://www.jekyll.com.cn/docs/step-by-step/10-deployment/)
+5. [chripy皮肤官网](https://chirpy.cotes.info/)
 
