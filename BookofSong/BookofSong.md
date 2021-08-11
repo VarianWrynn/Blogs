@@ -33,7 +33,7 @@
 
 
 
-#### 许渊冲 v.s  理雅各 
+##### 许渊冲 v.s  理雅各 
 
 《诗经》是中国最早的诗集，英译本版本众多，且各具特色。本文将比较其中影响力较大的[理雅各](https://baike.baidu.com/item/%E7%90%86%E9%9B%85%E5%90%84/6012269?fr=aladdin)译本和[许渊冲](https://baike.baidu.com/item/%E8%AE%B8%E6%B8%8A%E5%86%B2/10940148?fr=aladdin)译本。两位译者都是顶尖的翻译大家，但因两位译者所处的时代、背景、身份、经历等都不尽相同，且由于各自不同的翻译目的，两个译本之间存在较大的差异。
 
@@ -51,9 +51,47 @@
 
 原诗结构一致，讲究押韵。理雅各严格遵守原诗的句子结构和顺序，但没有押韵，读起来更像是富有乐感散文。许渊冲煞费苦心来保留原诗音韵美，译文韵律格式采用：AABBCC,每行四个音节，双行押韵，且语言力求简短。
 
-### 2. 采葛
 
-**彼采葛兮。一日不见，如三月兮。**
-**彼采萧兮。一日不见，如三秋兮。**
-**彼采艾兮。一日不见，如三岁兮。**
+
+## 南有乔木
+
+Tall tress grow on the far south mountain
+
+
+
+### 周南.关雎 Cooing and Wooing
+
+
+
+By riverside a pair, Of turtledoves are cooing; There is a maiden fair, whom a young man is wooing.
+
+Water flows left and right, Of cresses here and there; The youth yearns day and night, For the maiden so fair. 
+
+His yearning grows so strong, He cannot fall asleep, But tosses all night long, So deep in love, so deep!
+
+Now gather left and right, Cress long or short and tender! O lute, play music light, For the fiancee so slender!
+
+Feast friends at left and right, On cresses cooked tender! O bells and drums, delight. The bride so sweet and slender.
+
+
+
+
+
+## 燕燕于飞
+
+
+
+## 有匪君子
+
+
+
+## 山有扶苏
+
+
+
+## 呦呦鹿鸣
+
+
+
+## 七月流火
 
