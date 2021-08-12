@@ -1,3 +1,17 @@
+---
+
+title: 2021-08-12 诗经翻译
+
+author: 许渊冲
+
+date: 2021-8-4 12:06:43 +0800
+
+categories: [英文], 诗经]
+
+tags: [诗经]
+---
+
+
 # 诗经
 @(资治通鉴)[诗经]
 
@@ -59,13 +73,19 @@ Tall tress grow on the far south mountain
 
 
 
-### 周南.关雎 Cooing and Wooing
+### 周南.[关雎](https://baike.baidu.com/item/%E9%9B%8E%E9%B8%A0/10144218?fr=aladdin) Cooing and Wooing
+
+<img src="./asset/img/凤头鹏鹛.png" alt="img" style="zoom:50%;" /> 
+
+
+
+> 用荇菜或左或右漂浮不定比喻求爱的不易，也以物候交代出男女热恋的时令；同时，作者以赞颂的口吻勉励求取荇菜，隐喻“君子”的努力追求“淑女”。
 
 
 
 By riverside a pair, Of turtledoves are cooing; There is a maiden fair, whom a young man is wooing.
 
-Water flows left and right, Of cresses here and there; The youth yearns day and night, For the maiden so fair. 
+Water flows left and right, Of cresses[^1] here and there; The youth yearns day and night, For the maiden so fair. 
 
 His yearning grows so strong, He cannot fall asleep, But tosses all night long, So deep in love, so deep!
 
@@ -74,6 +94,26 @@ Now gather left and right, Cress long or short and tender! O lute, play music li
 Feast friends at left and right, On cresses cooked tender! O bells and drums, delight. The bride so sweet and slender.
 
 
+
+[^1]: 这里Cress翻译过来是水芹，和中文的荇菜有比较大区别，不知道作者这样翻译，是不是为了意义让西方读者更容易理解诗经。
+
+**生词：**
+
+| 单词                              | 解释                                                         | 例句                                                         |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| cooing<br /> [**ˈkuːɪŋ**]         | v. (鸽子)咕咕地叫;<br />(尤指对所爱的人)轻柔低语，柔情地说   | - She paused to coo at the baby<br />- The pigeon was eating and cooing at the same time. |
+| wooing                            | vt.争取…的支持;寻求…的赞同;追求(异性);求爱                   | If man woos a woman, he spends time with her and tries to persuade her to marry him.<br />- The penniless author successfully wooed and married Fanny.<br />-They wooed customers by offering low interest rates.. |
+| turtledoves<br />[**ˈtɜːrtldʌv**] | n. 斑鸠；情人                                                | 这里用斑鸠而不是 凤头鹏鹛 应该是有一语双关的意思，因为turtledove不仅表示斑鸠，还有情人的意思。 |
+| turtle<br /> [**ˈtɜːrtl**]        | n.(任何种类的)龟;陆龟;水龟<br/>vi.捕海龟;捕鳖;（船等）翻没;倾覆 | The sea turtle is an endangered species.                     |
+| maiden<br /> [**ˈmeɪdn**]         | n.少女;处女;未婚女子;未得分的一轮投球<br/>adj.首次的;初次的  | - ...stories of noble princes and their brave deeds on behalf of beautiful maidens.<br />- In 1912, the Titanic sank on her maiden voyage. |
+| cress<br />[**kres**]             | n. 水芹(常放在色拉和三明治中食用)                            | [水芹](https://baike.baidu.com/item/%E6%B0%B4%E8%8A%B9/2003662?fr=aladdin)和[荇菜](https://baike.baidu.com/item/%E8%8D%87%E8%8F%9C/577048?fr=aladdin)感觉差别还是挺大的；不知道作者这样翻译，是不是为了意义让西方读者更容易理解诗经。 |
+| yearn<br />[**jɜːrn**]            | (to want sth. very much, especially when it is very difficult to get)<br />vi. 渴望;渴求 | The people yearned **for** peace.                            |
+| slender<br />[**ˈslendər**]       | adj.苗条的;纤细的;微薄的;                                    | - her slender figure<br />-to win by a slender margin/majority |
+| lute<br />[**luːt**]              | an early type of musical instrument with strings, played like a guitar<br />琉特琴，诗琴(拨弦乐器) | He knows how to play the **Chinese lute**（琵琶）.           |
+| feast<br /> [**fiːst**]           | n.盛宴;宴会;(宗教的)节日，节期;使人欢快的事物(或活动)<br/>vi.尽情享用(美味佳肴) | - a weeding feast<br />- the feast of Christmas<br />- the evening was a real feast for music lovers. |
+| delight<br />[**dɪˈlaɪt**]        | n.高兴;愉快;快乐;令人高兴的事;乐事;乐趣<br/>vt.使高兴;使愉快;使快乐 | The children squealed with delight when they saw the puppy.<br/><br/>He takes delight in proving others wrong. |
+| fiancee<br /> [**fiˈænsi**]       | the woman that a man is engaged to                           | The whole incident had upset me and my fiancee terribly.<br/>He was also a writer of beautiful stories, some of which are collaborations with his fiancee. |
+|                                   |                                                              |                                                              |
 
 
 
