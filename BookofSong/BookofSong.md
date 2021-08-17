@@ -83,15 +83,53 @@ Tall tress grow on the far south mountain
 
 
 
-By riverside a pair, Of turtledoves are cooing; There is a maiden fair, whom a young man is wooing.
+By riverside a pair
 
-Water flows left and right, Of cresses[^1] here and there; The youth yearns day and night, For the maiden so fair. 
+Of turtledoves are cooing; 
 
-His yearning grows so strong, He cannot fall asleep, But tosses all night long, So deep in love, so deep!
+There is a maiden fair
 
-Now gather left and right, Cress long or short and tender! O lute, play music light, For the fiancee so slender!
+Whom a young man is wooing.
 
-Feast friends at left and right, On cresses cooked tender! O bells and drums, delight. The bride so sweet and slender.
+
+
+Water flows left and right
+
+Of cresses[^1] here and there; 
+
+The youth yearns day and night
+
+For the maiden so fair. 
+
+
+
+His yearning grows so strong
+
+He cannot fall asleep, 
+
+But tosses all night long
+
+So deep in love, so deep!
+
+
+
+Now gather left and right
+
+Cress long or short and tender! 
+
+O lute, play music light
+
+For the fiancee so slender!
+
+
+
+Feast friends at left and right
+
+On cresses cooked tender!
+
+ O bells and drums, delight
+
+The bride so sweet and slender.
 
 
 
