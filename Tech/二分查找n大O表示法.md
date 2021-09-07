@@ -57,7 +57,7 @@ print(binary_search(my_list,12))
 
 
 
-<img src="C:\Users\lee.wang\AppData\Roaming\Typora\typora-user-images\image-20210907172320586.png" alt="image-20210907172320586" style="zoom: 67%;" />
+<img src="./img/image-20210907172320586.png" alt="image-20210907172320586" style="zoom: 67%;" />
 
 
 ### 1.1 调试问题总结：
