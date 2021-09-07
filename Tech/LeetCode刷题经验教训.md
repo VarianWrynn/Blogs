@@ -25,7 +25,8 @@
   return new int[]{0,i};
   ```
 
-
+- **Length**容易打错成**Lenght**
+- for(j=i+1;j<nums.Length;j++)==> J未定义
 
 ### 第一次提交：
 
@@ -71,9 +72,9 @@ public class Solution{
 public class Solution{
     public int[] TwoSum(int[] nums, int target)
     {
-        for(int i=0;i<nums.Lenght;i++)
+        for(int i=0;i<nums.Length;i++) //第一个数组的元素一定不是该数组的最后一个元素，因此可以为i<nums.Length -1 
         {
-            for (int k = i+1;k<nums.Lenght;k++)
+            for (int k = i+1;k<nums.Length;k++)
             {
                 if(nums[i]+nums[k] ==target)
                 {
@@ -89,4 +90,8 @@ public class Solution{
 
 
 ### [视频解题](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-solution/)：
+
+
+
+思路：**以空间换时间**；(你可以通过加大内存来换取NASA火箭的发射速度，而不是为了节约内存而让登月登上几十年)
 

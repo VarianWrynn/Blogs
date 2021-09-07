@@ -4,6 +4,21 @@
 
 [toc]
 
+
+
+- [LeetCode 官方推出的经典面试题目清单 —— 「初级算法 - 帮助入门」](https://leetcode-cn.com/leetbook/detail/top-interview-questions-easy/)
+- [LeetCode -Algorithm-English](https://leetcode.com/study-plan/algorithm/)
+- [LeeCode-算法-中文](https://leetcode-cn.com/study-plan/algorithms/)
+- [代码随想录--哈希表](https://programmercarl.com/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html#%E5%93%88%E5%B8%8C%E8%A1%A8)
+- [How to use LeetCode to help yourself efficiently and effectively (for beginners)](https://leetcode.com/discuss/career/450215/How-to-use-LeetCode-to-help-yourself-efficiently-and-effectively-(for-beginners))
+- [introducing-new-feature-study-plan](https://leetcode.com/discuss/study-guide/1422121/introducing-new-feature-study-plan)
+
+
+
+--------------------------
+
+
+
 每天习惯了打卡, 早上起来喝杯咖啡刷个题, 特别是这几个月疫情在家, leetcode有那种每月Challenge, 刷一题得10积分, 还有就是会员题35分一题, 是快速拿积分的好方法(平时每天登陆才得1分, 一件T-shirt 得6000分换, 按照一天10分, 大概不到2年就能换衣服了)
 
 
