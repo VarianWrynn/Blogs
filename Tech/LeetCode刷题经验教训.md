@@ -6,7 +6,7 @@
 
 
 
-## 2021-9-7
+## 2021-9-7 [Two Sum](https://leetcode-cn.com/problems/two-sum/)
 
 [两数之和](https://leetcode-cn.com/problems/two-sum/)
 
@@ -99,7 +99,7 @@ public class Solution{
 
 
 
-## 2021-9-8
+## 2021-9-8 [Binary Search](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-leetcode-solution-f0xw/)
 
 - while loop的语法
 
@@ -202,7 +202,7 @@ public class Solution {
 
 
 
-<img src="./img/image-20210908110951507.png" alt="image-20210908110951507" style="zoom: 80%;" />
+<img src="./img/image-20210908110951507.png" alt="image-20210908110951507" style="zoom: 67%;" />
 
 #### 为何不能向上取整
 
@@ -253,5 +253,84 @@ public class Solution{
 执行用时：140 ms, 在所有 C# 提交中击败了22.93%的用户
 
 内存消耗：35.1 MB, 在所有 C# 提交中击败了46.36%的用户
+```
+
+
+
+
+
+## 2021-9-9 First Bad Version
+
+You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+
+You are given an API bool isBadVersion(version) which returns whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/first-bad-version
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+
+
+学到:
+
+- 可以一次性申明2个同类型的变量： int head =0, buttom = n.Lenght;
+
+- (head+buttom)/2 昨天我还没有意识到这样写有什么不对，今天才知道可能会导致**int溢出**
+
+- 底部是 **bottom** 而不是 **buttom**,我之所以写错，大概是因为butt这个单词的混淆作用
+
+  > Reference: [butt, bottom, buttock and ass?](https://ell.stackexchange.com/questions/39087/butt-bottom-buttock-and-ass)
+
+- bottom有屁股的意思，尽量少用这个变量
+
+### [第一次提交](https://leetcode-cn.com/problems/first-bad-version/solution/di-yi-ge-cuo-wu-ban-ben-by-leewang-x-v3we/)
+
+```C#
+/* The isBadVersion API is defined in the parent class VersionControl.
+   bool IsBadVersion(int version); */
+public class Solution:VersionControl{
+    public int FirstBadVersion(int n)
+    {
+        int head = 0, bottom = n.Length;
+        while(bottom >= head)
+        {
+            int mid = (bottom - head) /2 + head;
+            if(IsBadVersion(mid))//中间的版本已经是出现错误了
+            {
+                if(IsBadVersion(mid-1))//再往前检查一位，如果前面那位是false，则说明中间版本是第一个错误版本
+                {
+                    return mid;
+                }
+                //中间版本就出现错误，说明第一个错误坐落在[head,mid]之间，因此需要修改bottom的指针
+                bottom = mid -1;
+            }
+            else //中间的版本没有错误
+            {
+                if(IsBadVersion(mid+1))//往后检查一位，如果刚好出现true,则说明就是mid+1
+                {
+                    return mid +1;
+                }
+                //否则，说明错误坐落在[mid,bottom]之间，则需要调整head的指针
+                head = mid +1;
+            }
+        }
+    }
+}
+```
+
+<img src="./img/image-20210909142435263.png" alt="image-20210909142435263" style="zoom: 50%;" />
+
+
+
+<img src="./img/image-20210909142622356.png" alt="image-20210909142622356" style="zoom:50%;" />
+
+
+
+```C#
+执行用时：28 ms, 在所有 C# 提交中击败了99.40%的用户
+
+内存消耗：14.9 MB, 在所有 C# 提交中击败了42.56%的用户
 ```
 
