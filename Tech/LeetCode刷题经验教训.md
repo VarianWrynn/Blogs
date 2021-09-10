@@ -334,3 +334,56 @@ public class Solution:VersionControl{
 内存消耗：14.9 MB, 在所有 C# 提交中击败了42.56%的用户
 ```
 
+
+
+
+
+## 2021-9-10 [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)
+
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+-  while(right > = left)：>=中间不要有空格
+
+
+
+###  第一次提交
+
+```C#
+public class Solution {
+    public int SearchInsert(int[] nums, int target) {
+        int left = 0, right = nums.Length-1;
+        int temp = 0;
+        while(right >= left)
+        {
+            int mid = (right -left) /2 + left;
+            temp = mid;
+            if(target == nums[mid])
+            {
+                return mid;
+            }
+            else if (target >nums[mid])
+            {
+                //修改left的指针，并且把当前的指针传递到外面return
+                temp= mid +1;
+                left = mid +1;
+            }
+            else {
+                //修改right的指针，并且把当前的指针位置传递到外面
+                temp= mid -1;
+                right = mid -1;
+                /*这里使用[1,3,5,6] 0 进行测试失败。 
+                因为这里计算出来的mid已经是0了，
+                再减去1则变成-1：输出； 预期结果0*/
+            }
+        }
+        return temp;
+    }
+}
+```
+
+
+
+第二次提交：
+
