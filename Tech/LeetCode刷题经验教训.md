@@ -423,4 +423,43 @@ Given an integer array `nums` sorted in **non-decreasing** order, return ***an a
 
 
 
--  if(int[i]\*int[i] > int[j]*int[j])  这种写法编译器会通不过，乘法符号 \* 周围需要用空格隔开；
+-  **if(int[i]\*int[i] > int[j]*int[j])**  这种写法编译器会通不过，乘法符号 \* 周围需要用空格隔开；这种写法。。。。。悲剧啊 **（nums[i] * nums[i])**!!!
+
+
+
+## 2021-9-15 [Rotate array](https://leetcode-cn.com/problems/rotate-array/)
+
+Given an array, **rotate** the array **to the right** by `k` steps, where `k` is non-negative
+
+给定一个数组，将数组中的元素向右移动 `k` 个位置，其中 `k` 是非负数。
+
+**Example 1:**
+
+```javascript
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+```
+
+**Follow up:**
+
+- Try to come up with as many solutions as you can. There are at least three different ways to solve this problem.
+- Could you do it in-place with `O(1)` extra space?
+
+### 经验教训
+
+- 这题我连题目都没有读懂过，一看英文的Rotate，我的脑海中第一印象是以为是数组的中间元素为轴进行左右两边的元素旋转；
+- 仔细看了例题才看的看到，原来是这个素组收尾相连的进行移动，有点类似于圆形的旋转机械开关一样进行旋转。
+- **Rotate** xxx **to** the **left/right**
+
+<img src="./img/image-20210915174545864.png" alt="image-20210915174545864" style="zoom:67%;" /> ==）<img src="./img/image-20210915174702540.png" alt="image-20210915174702540" style="zoom: 59%;" />
+
+
+
+
+
+
+
