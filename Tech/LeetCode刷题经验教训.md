@@ -385,5 +385,42 @@ public class Solution {
 
 
 
-第二次提交：
+### 第二次提交（未开始）：
 
+
+
+## 2021-9-13 [Squares of the Sorted Array.](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
+
+
+
+Given an integer array `nums` sorted in **non-decreasing** order, return ***an array of the squares of each number*** sorted *in non-decreasing order*.
+
+给你一个按 **非递减顺序** 排序的整数数组 `nums`，返回 **每个数字的平方** 组成的新数组，要求也按 **非递减顺序** 排序。
+
+- 原题是: **sorted in** non-decreasing **order**， **sorted in .... order** 说的很清楚了，这个数组是 **排序**的，只是以 *非递减*的形式排序
+
+- **non-decreasing**：非递减排序，第一次看懵了...很难拐过弯。非递减排序应该就是**递增排序（ascending)**。
+
+- **square**: square有很多个意思，可以做动词和名词。这里是做动词，表示~~乘~~平方的意思：
+
+  > **multiple (a number) by itself.** 
+  >
+  > > 5 squred equals 25
+
+### [双指针法](https://leetcode-cn.com/problems/squares-of-a-sorted-array/solution/dai-ma-sui-xiang-lu-shu-zu-ti-mu-zong-ji-1rtz/)
+
+数组其实是有序的， 只不过负数平方之后可能成为最大数了。**那么数组平方的最大值就在数组的两端，不是最左边就是最右边**，不可能是中间。此时可以考虑双指针法了，**i**指向起始位置，**j**指向终止位置。
+
+> 即便我复制了代码在VS里面debug了，依然看不懂，是因为我对这句话没有理解，或者说，该case的数组本质与特征没有观察到。
+>
+> 2021-9-14 10:57:40
+
+定义一个新数组result，和A数组一样的大小，让k指向result数组终止位置。
+
+如果`A[i] * A[i] < A[j] * A[j]` 那么`result[k--] = A[j] * A[j];` 。
+
+如果`A[i] * A[i] >= A[j] * A[j]` 那么`result[k--] = A[i] * A[i];` 。
+
+
+
+-  if(int[i]\*int[i] > int[j]*int[j])  这种写法编译器会通不过，乘法符号 \* 周围需要用空格隔开；
