@@ -12,39 +12,31 @@
 
 
 
-
-![Alt text](./1616476281619.png)
-
+<img src="./1616476281619.png" alt="Alt text" style="zoom: 80%;" />
 
 
 
 
 
 
+## 1. 删除所有的commit记录
 
 
-
-
-
-## 操作
-
-
-```
+```shell
 $ git checkout --orphan=main
 Switched to a new branch 'main'
 ```
 
-![Alt text](./1616476879894.png)
+<img src="./1616476879894.png" alt="Alt text" style="zoom:80%;" />
+
+<img src="./1616476887158.png" alt="Alt text" style="zoom:80%;" />
 
 
-![Alt text](./1616476887158.png)
-
-
-```
+```shell
 git add -A
 ```
 
-```
+```shell
 $ git commit -m "to avoid access key leaking"
 
 [main (root-commit) cf13cd3] to avoid access key leaking
@@ -56,24 +48,36 @@ $ git commit -m "to avoid access key leaking"
 ```
 
 
-```
+```shell
 $ git branch -D master
 Deleted branch master (was d0364b1).
 ```
 
-```
+```shell
 $ git branch -m master
 ```
 
-![Alt text](./1616477143402.png)
+<img src="./1616477143402.png" alt="Alt text" style="zoom:80%;" /
 
 
-```
+```shell
 $ git push -f origin master
 ```
 
 
+
+## 2. 查看当前仓库的历史提交记录
+
+
+
+```shell
+git shortlog -s -n
+```
+
+<img src="./image-20210915091318281.png" alt="image-20210915091318281" style="zoom:80%;" />
+
 ## 6. References & Connections
+
 1. [how to delete all commit history in github? --StatckOverflow](https://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github)
 2. [What is `git checkout --orphan` used for?--Stackoverflow](https://stackoverflow.com/questions/19980631/what-is-git-checkout-orphan-used-for)
 
