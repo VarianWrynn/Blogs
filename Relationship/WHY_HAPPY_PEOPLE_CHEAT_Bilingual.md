@@ -194,27 +194,39 @@ These explanations may seem superficial—petty First World problems, or rationa
 
 > **禁忌之恋故事的本质是乌托邦的，特别与婚姻、家庭的世俗约束相比而言。**这个难以把握的宇宙，以及难以抵抗的力量的关键，主要特征在于无法达到。显然，婚外情不稳定、难以捉摸、不明朗。**这种我们不允许出现在亲密关系里的不明确、不确定、不知道何时再相见的感觉，变成了我们期待隐秘恋情的诱因。**因为我们无法拥有爱人，我们一直在期待。**这种得不到的特性给出轨带来情色上的神秘感，使得欲望之火持续燃烧。**很多人，比如普莉娅会选择那种既不可能也不会成为另一半的人作情人，这使得出轨与现实愈加脱轨。喜欢一个不同阶层、不同文化背景、不同年代的人，我们可能会超脱凡俗。
 
-Few of these types of affairs withstand discovery. One would think that a relationship for which so much was risked would survive the transition into daylight. Under the spell of passion, lovers speak longingly of all the things they will be able to do when they are finally together. Yet when the prohibition is lifted, when the divorce comes through, when the sublime mixes with the ordinary and the affair enters the real world, what then? Some settle into happy legitimacy, but many more do not. In my experience, most affairs end, even if the marriage ends as well. However authentic the feelings of love, the dalliance was only ever meant to be a beautiful fiction.
+Few of these types of affairs withstand discovery. One would think that a relationship for which so much was risked would survive the transition into daylight. Under the spell of passion, lovers speak longingly of all the things they will be able to do when they are finally together. **Yet when the prohibition is lifted, when the divorce comes through, when the sublime mixes with the ordinary and the affair enters the real world, what then?** Some settle into happy legitimacy, but many more do not. **In my experience, most affairs end, even if the marriage ends as well. However authentic the feelings of love, the dalliance was only ever meant to be a beautiful fiction.**
 
-> 这种出轨很少能不被发现。有人可能会以为冒了这么大风险的一段关系应该公之于众。激情魔咒下，爱人们热切地谈论当要是最终走到一起能做的所有事情。然而当禁忌不再，离了婚，当神圣接触到柴米油盐，婚外情成了现实生活，又会怎样呢？有些人结婚并幸福的生活在一起，但更多人并非如此。以我的经验来看，即使婚姻破裂，大多数婚外情也会结束。不管相爱的感觉有多么真切，调情不过是一场美丽的幻想。
+> 这种出轨很少能不被发现。有人可能会以为冒了这么大风险的一段关系应该公之于众。激情魔咒下，爱人们热切地谈论当要是最终走到一起能做的所有事情。然而当禁忌不再，**离了婚，当神圣接触到柴米油盐，婚外情成了现实生活，又会怎样呢？**有些人结婚并幸福的生活在一起，但更多人并非如此。**以我的经验来看，即使婚姻破裂，大多数婚外情也会结束。不管相爱的感觉有多么真切，调情不过是一场美丽的幻想。**
 
-The affair lives in the shadow of the marriage, but the marriage also lives in the center of the affair. Without its delicious illegitimacy, can the relationship with the lover remain enticing? If Priya and her tattooed beau had their own bedroom, would they be as giddy as they are in the back of his truck?
+The affair lives in the shadow of the marriage, but the marriage also lives in the center of the affair. **Without its delicious illegitimacy, can the relationship with the lover remain enticing?** If Priya and her tattooed beau had their own bedroom, would they be as giddy as they are in the back of his truck?
 
-
+> 婚外情处在婚姻的阴影之下，可婚姻也处于婚外情的中心。**没有了美味的非法性，同情人的关系还能保持诱惑吗**？如果普莉娅和她的纹身男友有自己的卧室，他们还会像在卡车后面那样意乱情迷吗？
 
 --------------------------
 
-The quest for the unexplored self is a powerful theme of the adulterous narrative, with many variations. Priya’s parallel universe has transported her to the teenager she never was. Others find themselves drawn by the memory of the person they once were. And then there are those whose reveries take them back to the missed opportunity, the one that got away, and the person they could have been. The sociologist Zygmunt Bauman wrote that in modern life,
+The quest for the unexplored self is a powerful theme of the adulterous narrative, with many variations. Priya’s parallel universe has transported her to the teenager she never was. Others find themselves drawn by the memory of the person they once were. And then there are those whose reveries take them back to the missed opportunity, the one that got away, and the person they could have been. The sociologist Zygmunt Bauman wrote that in modern life,社会学家齐格蒙·鲍曼曾写过，
+
+> 探寻未知的自我是出轨叙事中一个强有力的主题，有各种不同的说法。普莉娅的平行宇宙把她变成一个少女，一个她不曾拥有的少年状态，还有些人发现自己被记忆中原来的样子所吸引。于是就有一些人，幻想将找回错过的机会，错过的人和自己应该的样子。
 
 > there is always a suspicion … that one is living a lie or a mistake; that something crucially important has been overlooked, missed, neglected, left untried and unexplored; that a vital obligation to one’s own authentic self has not been met, or that some chances of unknown happiness completely different from any happiness experienced before have not been taken up in time and are bound to be lost forever.
+>
+> > 现代生活中永远存在怀疑……自己生活在谎言或错误之中，某些至关重要的事被轻视、错过、未尝试、忽略、未加尝试和未加探索，没有旅行真正自我的重要义务，或是存在某种与以前经历过的幸福全然不同的未知幸福，而自己未能及时抓住这种机会，且注定要永远错过。
 
-Bauman speaks to our nostalgia for unlived lives, unexplored identities, and roads not taken. As children, we have the opportunity to play at other roles; as adults, we often find ourselves confined by the ones we’ve been assigned or the ones we have chosen. When we select a partner, we commit to a story. Yet we remain forever curious: What other stories could we have been part of? Affairs offer us a view of those other lives, a peek at the stranger within. Adultery is the revenge of the deserted possibilities.
+Bauman speaks to our nostalgia for unlived lives, unexplored identities, and roads not taken. As children, we have the opportunity to play at other roles; as adults, we often find ourselves confined by the ones we’ve been assigned or the ones we have chosen. When we select a partner, we commit to a story. Yet we remain forever curious: What other stories could we have been part of? **Affairs offer us a view of those other lives, a peek at the stranger within. Adultery is the revenge of the deserted possibilities.**
+
+> 我们对未体验过的生活、未加探寻的自我和没有选择的道路有一种怀旧思绪，鲍曼与这种怀旧进行对话。孩童时期，我们有机会扮演其他角色，可成年后，我们往往发现自己被规定的那个我和我自己选择的那个我所制约。我们选择伴侣时，就把自己交付给了一段故事，可我们依然充满好奇，如果生活在其他故事里，我们会是什么样呢。**婚外情让我们得以窥探他人的生活，从内部观察陌生人，出轨是对失去可能性的报复。**
 
 Dwayne had always cherished memories of his college sweetheart, Keisha. She was the best sex he’d ever had, and she still featured prominently in his fantasy life. They’d both known they were too young to commit, and parted reluctantly. Over the years, he had often asked himself what would have happened had their timing been different.
 
+> 德维恩忘不了大学女友凯萨。她是他见过最棒的性感尤物，她依然活在他的幻想之中。他们都知道他们还太年轻不足以担起承诺，于是被迫分手。多年后，他曾经常问自己如果时间不同又会如何?
+
 Enter Facebook. The digital universe offers unprecedented opportunities to reconnect with people who exited our lives long ago. Never before have we had so much access to our exes, and so much fodder for our curiosity. “Whatever happened to so-and-so?” “I wonder if she ever got married?” “Is it true he’s having difficulties in his relationship?” “Is she still as cute as I remember?” The answers are a click away. One day, Dwayne searched for Keisha’s profile. Lo and behold, they were both in the same city. She, still hot, was divorced. He, on the other hand, was happily married, but his curiosity got the better of him and “Add Friend” soon turned into a secret girlfriend.
 
-It seems to me that in the past decade, affairs with exes have proliferated, thanks to social media. These retrospective encounters occur somewhere between the known and the unknown—bringing together the familiarity of someone you once knew with the freshness created by the passage of time. The flicker with an old flame offers a unique combination of built-in trust, risk taking, and vulnerability. In addition, it is a magnet for our lingering nostalgia. The person I once was, but lost, is the person you once knew.
+> 打开脸书，这个数字世界提供了前所未有的机会，让我们与那些很久以前令人激动的人恢复联系。我们从来没有这么多机会接触到前任，也没有这么多满足好奇心的料。“某某发生了什么？”“我想知道她是否结了婚。”“他的感情出了问题，是真的吗？”“她还像记忆中那么可爱吗？”答案点击一下就有了。有一天德维恩搜索了凯萨的账号。惊喜的是他们在同一所城市。她依然身材火辣并且离婚了。另一方面，他幸福地结婚了，然而好奇心攫住了他，“添加好友”马上变成了秘密情人。
+
+It seems to me that in the past decade, affairs with exes have proliferated, thanks to social media. These retrospective encounters occur somewhere between the known and the unknown—bringing together the familiarity of someone you once knew with the freshness created by the passage of time. The flicker with an old flame offers a unique combination of built-in trust, risk taking, and vulnerability. **In addition, it is a magnet for our lingering nostalgia. The person I once was, but lost, is the person you once knew.**
+
+> 在我看来，似乎在过去十年内，正是因为社交媒体，和前任的婚外情激增。叙旧发生在熟知和陌生之间，你对曾认识的那个人很熟悉，又因时过境迁而生出新鲜感。与旧情人擦出火花是独一无二的经历，内心信任，也冒了风险，又很脆弱。此外，它引发我们挥之不去的怀旧情绪，因为失去的那个曾经的我正是你所了解的我。
 
 <img src="./img/original-313131.jpg" alt="img" style="zoom: 50%;" />
 
@@ -224,13 +236,21 @@ It seems to me that in the past decade, affairs with exes have proliferated, tha
 
 
 
-Priya is mystified and mortified by how she is putting her marriage on the line. The constraints she is defying are also the commitments she cherishes. But that’s precisely where the power of transgression lies: in risking the very things that are most dear to us. No conversation about relationships can avoid the thorny topic of rules and our all-too-human desire to break them. Our relationship to the forbidden sheds a light on the darker and less straightforward aspects of our humanity. Bucking the rules is an assertion of freedom over convention, and of self over society. Acutely aware of the law of gravity, we dream of flying.
+Priya is mystified and mortified by how she is putting her marriage on the line. The constraints she is defying are also the commitments she cherishes. **But that’s precisely where the power of transgression lies: in risking the very things that are most dear to us. No conversation about relationships can avoid the thorny topic of rules and our all-too-human desire to break them. Our relationship to the forbidden sheds a light on the darker and less straightforward aspects of our humanity. Bucking the rules is an assertion of freedom over convention, and of self over society. Acutely aware of the law of gravity, we dream of flying.**
 
-Priya often feels like she’s a walking contradiction—alternately dismayed by her reckless behavior and enchanted by her daredevil attitude; tormented by fear of discovery and unable (or unwilling) to put a stop to the affair. She is bewitched by this thought: *What if just this once, I act as if the rules don’t apply to me?*
+> 普莉娅迷惑又羞愧于自己是如何把婚姻置于危险之地的。她所反抗的束缚正是她所珍视的承诺，**然而这正是犯罪的力量所在：把最亲近的东西置于危险之中。任何关于两性关系的对话都无法回避关于规则以及我们打破规则的正常欲望。禁恋揭示了人性中更黑暗、更不坦然的一面。打破规则是摒弃传统、宣示自由，向社会宣示个体身份。明明知道有引力拽着，我们却想要飞翔。**
+
+Priya often feels like **she’s a walking contradiction**—alternately dismayed by her reckless behavior and enchanted by her daredevil attitude; tormented by fear of discovery and unable (or unwilling) to put a stop to the affair. She is bewitched by this thought: *What if just this once, I act as if the rules don’t apply to me?*
+
+> 普莉娅经常感觉自己是**活着的矛盾体**，为自己的莽撞行为感到沮丧，可又为不顾一切的态度感到兴奋；在被发现的恐惧中备受折磨，却无法也不愿收手，她在两个极端之间摇摆。她沉迷其中，想着就犯这么一次错怎么样，假装规则并不适用于我。
 
 Our conversations help Priya bring clarity to her confusing picture. She is relieved that we don’t have to pick apart her relationship with Colin. But having to assume full responsibility leaves her heavy with guilt: “The last thing I’ve ever wanted to do is hurt him. If he knew, he would be crushed. And knowing that it had nothing to do with him wouldn’t make a difference. He would never believe it.”
 
+> 谈话帮助普莉娅理清了混乱。我们不必剖析她与丈夫科林的关系，为此她松了口气。然而不得不担起全部责任使她愧意深重，“我最不想做的就是伤害他。如果他知道了，他会崩溃的。知道这与他无关也不会起什么作用，他不会相信的。”
+
 She may be right. Perhaps knowing what motivated his wife’s duplicity would do nothing to alleviate Colin’s pain. Or perhaps it would. Even after decades of this work, I still cannot predict what people will do when they discover a partner’s infidelity. Some relationships collapse upon the discovery of a fleeting hookup. Others exhibit a surprisingly robust capacity to bounce back even after extensive treachery.
+
+> 她或许是对的，也许知道究竟什么驱使了自己妻子去背叛并不会减轻丈夫的痛苦，也没准可以吧。即使工作了几十年，我依然不能预测当人们发现另一半出轨时会怎么做。一些夫妻关系会在暧昧或调情败露后而破裂，而另一些则展现出了惊人的恢复能力，即使是存在大量背叛。
 
 
 
@@ -238,29 +258,47 @@ She may be right. Perhaps knowing what motivated his wife’s duplicity would do
 
 
 
-Priya has tried to end her affair several times. She deletes her lover’s phone number, drives a different route home from dropping the kids off at school, tells herself how wrong this entire thing is. But the self-imposed cutoffs become new and electrifying rules to break. Three days later, the fake name is back in her phone. Yet her torment is mounting in proportion to the risks she is taking. She’s beginning to feel the corroding effects of the secret, and getting sloppier by the day. Danger follows her to every movie theater and secluded parking lot.
+Priya has tried to end her affair several times. She deletes her lover’s phone number, drives a different route home from dropping the kids off at school, tells herself how wrong this entire thing is. But the self-imposed cutoffs become new and electrifying rules to break. Three days later, the fake name is back in her phone. **Yet her torment is mounting in proportion to the risks she is taking.** She’s beginning to feel the corroding effects of the secret, and getting sloppier by the day. Danger follows her to every movie theater and secluded parking lot.
 
-It is not my place to tell Priya what she should do. Besides, she has already made it clear that for her, the right thing is to end the affair. She’s also telling me, however, that she doesn’t really want to. What I can see, and what she has not yet grasped, is that the thing she is really afraid to lose is not her lover—it’s the part of herself that he awakened. This distinction between the person and the experience is crucial. She needs to know that if she lets Truck Man go, she isn’t doomed to lose herself as well.
+> 普莉娅几次试图结束出轨，她删除了她情人的手机号，送孩子上学后换一条路回家，并告诉自己这一切都是错的，然而这种自我强加的断绝反倒成了令人兴奋地要去打破的新规则。三天后，她带着假名字的手机号回到通讯录。**然而她的痛苦与她所冒的风险成正比，**她开始感受到这个秘密会造成的毁灭性影响，生活越来越狼狈。每一次去电影院、幽静的停车场，危险都伴随她左右。
+
+It is not my place to tell Priya what she should do. Besides, she has already made it clear that for her, the right thing is to end the affair. She’s also telling me, however, that she doesn’t really want to. **What I can see, and what she has not yet grasped, is that the thing she is really afraid to lose is not her lover—it’s the part of herself that he awakened. This distinction between the person and the experience is crucial. She needs to know that if she lets Truck Man go, she isn’t doomed to lose herself as well.**
+
+> 我没法告诉普莉娅该怎么做，而且她已经清楚地知道结束婚外情于她而言是一件正确的事。然而，她还告诉我，她并不想这么做。**我看得出她害怕失去的实际上并非她的情人，而是情人唤醒的那一部分自我，这一点她还没搞清楚。自我和经验之间是不同的，这至关重要。她必须知道，如果她放弃了开卡车的情人，不一定会同时失去自我**。
 
 “You think you had a relationship with Truck Man,” I tell her. “Actually, you had an intimate encounter with yourself, mediated by him. I don’t expect you to believe me right now, but you can terminate your relationship and keep some of what it gave you. You reconnected with an energy, a youthfulness. I know that it feels as if, in leaving him, you are severing a lifeline to all of that, but I want you to know that over time you will find that the otherness you crave also lives inside you.”
 
-I often say to my patients that if they could bring into their marriage even one-tenth of the boldness, the playfulness, and the verve that they bring to their affair, their home life would feel quite different. Our creative imagination seems to be richer when it comes to our transgressions than to our commitments. Yet while I say this, I also think back to a poignant scene in the movie *A Walk on the Moon*. Diane Lane’s character has been having an affair with a free-spirited blouse salesman. Her teenage daughter asks, “You love [him] more than all of us?” “No,” the mother replies, but “sometimes it’s easier to be different with a different person.”
+> 我告诉她：“你认为你和他有感情，实际上你只是同隐藏的自己来了一场偶遇，而他是中间媒介。我不期望你现在就相信我所说的，但是你可以结束这段关系然后保留一些这段关系赋予你的东西。你重获了活力与青春，我知道离开他感觉就像丢失了救生索，然而我想让你明白，随着时间流逝你会发现你所渴望的东西依然伴随着你。”
 
+I often say to my patients that if they could bring into their marriage even one-tenth of the boldness, the playfulness, and the verve that they bring to their affair, their home life would feel quite different. **Our creative imagination seems to be richer when it comes to our transgressions than to our commitments.** Yet while I say this, I also think back to a poignant scene in the movie *A Walk on the Moon*. Diane Lane’s character has been having an affair with a free-spirited blouse salesman. Her teenage daughter asks, “You love [him] more than all of us?” “No,” the mother replies, **but “sometimes it’s easier to be different with a different person.”**
 
+> 我经常对我的病人说，如果你们哪怕能把出轨时十分之一的勇气、兴致和精力用在婚姻经营上，家庭生活会大不相同。**我们犯罪时的创造性思维似乎比遵守诺言时更加丰富**。然而当我说这些话时，我的思绪回到了影片《月球漫步》中的痛心一幕，戴安·莲恩饰演的角色和一个自由奔放的推销员出轨了，她青春期的女儿问她：“你爱他胜过我们所有人吗？”这位母亲回答道：“不，”但是她接着说到，“**有时候和不同的人在一起更能成为不一样的自己。**”
 
 -----------------------
 
 If priya succeeds in ending the affair, and doing so with finality, a new dilemma will arise: Should she tell her husband, or should she keep her secret to herself? Could her marriage survive the pain of revelation? Could it continue with a lie undisclosed? I have no tidy answer to offer. I don’t condone deception, but I’ve also seen too many carelessly divulged secrets leave unfading scars. In many instances, however, I have helped couples work toward revelation, hopeful that it will open up new channels of communication for them.
 
+> 如果普莉娅成功结束婚外情，并且态度坚决地这么做，一个新的两难就会出现：她应该告诉她的丈夫还是自己保守秘密？她的婚姻能经受住被揭露的苦痛吗？就让它成为一个未经披露的谎言可以吗？我没有现成的答案。我不宽恕欺骗，我也见过很多不小心泄露秘密而留下不可磨灭的伤痕，可我多次帮助夫妻去说出秘密，期望这能为他们打开新的沟通渠道。
+
 Catastrophe has a way of propelling us into the essence of things. In the wake of devastating betrayals, so many couples tell me that they are having some of the deepest, most honest conversations of their entire relationship. Their history is laid bare—unfulfilled expectations, unspoken resentments, and unmet longings. Love is messy; infidelity, more so. But it is also a window, like none other, into the crevices of the human heart.
 
-The revelation of an affair forces couples to grapple with unsettling questions: What does fidelity mean to us and why is it important? Is it possible to love more than one person at once? Can we learn to trust each other again? How do we negotiate the elusive balance between our emotional needs and our erotic desires? Does passion have a finite shelf life? And are there fulfillments that a marriage, even a happy one, can never provide?
+> 灾难促使我们看清事物的本质。毁灭性的背叛之后，许多夫妻告诉我，他们正在就他们的关系进行最深入和最诚挚的对话。他们的过去放在桌面上来了——未实现的期望、未出口的憎恨、未满足的渴望。爱混乱不堪，背叛更甚。但后者也是一扇窗，可以直击心灵最隐秘之处，与别的方法都不相同。
+
+**The revelation of an affair forces couples to grapple with unsettling questions**: What does fidelity mean to us and why is it important? Is it possible to love more than one person at once? Can we learn to trust each other again? How do we negotiate the elusive balance between our emotional needs and our erotic desires? Does passion have a finite shelf life? And are there fulfillments that a marriage, even a happy one, can never provide?
+
+> **婚外情泄露迫使夫妻去解决令人不安的各种问题**：忠诚对我们意味着什么，为什么很重要？可能同时爱着多个人吗？我们能够重获彼此的信任吗？我们如何达到情感需求和情爱欲望之间难以把握的平衡？激情有保质期吗？是否存在婚姻，即使是幸福的婚姻也不能给予的满足感呢？
 
 For me, these conversations should be part and parcel of any adult, intimate relationship from the beginning. It’s far better to address these issues before a storm hits. Talking about what draws us outside our fences, in an atmosphere of trust, can actually foster intimacy and commitment. But for many couples, unfortunately, the crisis of an affair is the first time they talk about any of this. Priya and Colin will have to negotiate these questions while also dealing with the ravages of betrayal, dishonesty, and broken trust.
 
-Every affair will redefine a marriage, and every marriage will determine what the legacy of the affair will be. Although infidelity has become one of the prime motives for divorce in the West, I’ve seen many couples stay together after the revelation of an affair. I believe the odds are in favor of Priya and Colin’s marriage surviving, but the quality of their future connection will depend on how they metabolize her transgression. Will they emerge stronger as a result? Or will they bury the affair under a mountain of shame and mistrust? Can Priya step out of her self-absorption and face the pain she caused? Can Colin find solace in knowing that the affair was not meant to be a rejection of him? And will he get to meet the carefree, youthful woman Priya became in her parallel life?
+> 在我看来，**这些谈话在任何一段成人亲密关系开始时都应该谈及。在风暴来临前，解决这些问题是最好的。在信任的氛围下讨论是什么把我们拉出围城的确能培养亲密感、增进承诺。**然而不幸的是，他们出轨后才第一次谈起这些话题。普莉娅和科林在讨论这些问题的同时，还要处理背叛、不诚实、失信造成的一片狼藉。
 
-These days, many of us are going to have two or three significant long-term relationships or marriages. Often when a couple comes to me in the wake of an affair, it is clear to me that their first marriage is over. So I ask them: Would you like to create a second one together?
+**Every affair will redefine a marriage, and every marriage will determine what the legacy of the affair will be.** Although infidelity has become one of the prime motives for divorce in the West, I’ve seen many couples stay together after the revelation of an affair. I believe the odds are in favor of Priya and Colin’s marriage surviving, but the quality of their future connection will depend on how they metabolize her transgression. Will they emerge stronger as a result? Or will they bury the affair under a mountain of shame and mistrust? Can Priya step out of her self-absorption and face the pain she caused? Can Colin find solace in knowing that the affair was not meant to be a rejection of him? And will he get to meet the carefree, youthful woman Priya became in her parallel life?
+
+> **每一次出轨都会重新定义一段婚姻，而每段婚姻会决定出轨的后果如何。**尽管婚外情已成为西方国家离婚的主要原因之一，我也看过许多夫妻在婚外情败露后还待在一起。我相信普莉娅和科林的婚姻能够挽救回来，然而他们未来相处的质量取决于他们如何消化普莉娅的过错。他们会变得更强大吗？还是会把出轨掩藏在深深的羞愧和不信任之下？普莉娅能不再自私而正视她造成的伤痛吗？知道出轨并非妻子厌弃自己，这能让科林得到一丝安慰吗？他会遇见那个在平行世界中无忧无虑、年轻的普莉娅吗？
+
+These days, many of us are going to have two or three significant long-term relationships or marriages. **Often when a couple comes to me in the wake of an affair, it is clear to me that their first marriage is over. So I ask them: Would you like to create a second one together?**
+
+> 现在很多人都会经历两三次重要的长期关系或婚姻。经常如此，**一对夫妻因婚外情来找我时，我就知道他们的第一段婚姻宣告结束了。于是我问他们：“你们愿意一起开始建设第二段婚姻吗？**
 
 
 
