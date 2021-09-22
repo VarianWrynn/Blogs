@@ -41,6 +41,18 @@
 
 只有紧急情况，才允许跳过上游，直接合并到下游分支。
 
+
+
+**上游优先（upsteam first)**
+
+Gitlab flow 的最大原则叫做"上游优先"（upsteam first），即只存在一个主分支`master`，它是所有其他分支的"上游"。只有上游分支采纳的代码变化，才能应用到其他分支。
+
+[Chromium项目](https://www.chromium.org/chromium-os/chromiumos-design-docs/upstream-first)就是一个例子，它明确规定，上游分支依次为：
+
+> 1. Linus Torvalds的分支
+> 2. 子系统（比如netdev）的分支
+> 3. 设备厂商（比如三星）的分支
+
 ## 2. master分支
 
 <img src="./1617884966036.png" alt="@||280x0" style="zoom: 80%;" />
