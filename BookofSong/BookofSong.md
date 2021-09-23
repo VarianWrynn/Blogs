@@ -6,7 +6,7 @@ author: 许渊冲
 
 date: 2021-8-4 12:06:43 +0800
 
-categories: [英文], 诗经]
+categories: [英文, 诗经]
 
 tags: [诗经]
 ---
