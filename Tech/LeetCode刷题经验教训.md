@@ -463,3 +463,71 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 
 
 
+## 2021-9-28 [Integer-to-roman](https://leetcode-cn.com/problems/integer-to-roman/)
+
+
+
+### 第一次提交code
+
+```C#
+public class Solution {
+    public string IntToRoman(int num) {
+        //Greedy algorithm.
+       // var tupleToken = new Tuple{
+       // readonly Tuple<string,int>[] tupleToken={
+        Tuple<int, string>[] tupleToken = {
+            new Tuple<int,string>(1000,"M"),
+            new Tuple<int,string>(900,"CM"),
+            new Tuple<int,string>(500,"D"),
+            new Tuple<int,string>(400,"CD"),
+            new Tuple<int,string>(100,"C"),
+            new Tuple<int,string>(90,"XC"),
+            new Tuple<int,string>(50,"L"),
+            new Tuple<int,string>(40,"XL"),
+            new Tuple<int,string>(10,"X"),
+            new Tuple<int,string>(9,"IX"),
+            new Tuple<int,string>(5,"V"),
+            new Tuple<int,string>(4,"IV"),
+            new Tuple<int,string>(1,"I")
+        };
+        
+
+        //var sb = new StringBuidler();
+        var sb = new StringBuilder();
+        foreach(var token in tupleToken)
+        {
+           int val = token.Item1;
+           string rom = token.Item2;
+           while(num>=val)//1994>=1000 is True
+           {
+               //sb.ppend(rom);
+               sb.Append(rom);
+               num-=val;
+           }
+           if(num == 0)
+           {
+               break;
+           }
+        }
+        return sb.ToString();
+    }
+
+}
+```
+
+
+
+- 第一次开始理解什么是贪婪算法
+
+- 映射关系容易写错，比如 **4 <---> "IV"** 写成了  **4 <---> "IX"**
+
+- **StringBuilder** 打成了  ***StringBuidler***,编译报错还看半天
+
+- Tuple数组的初始化过程，一开始完全不知道怎么写。
+
+- 注意，才两个月，我又开始忘记[C# Initializer](https://www.evernote.com/l/ALpCOGXLML5BULx43BWDN9QX744FDPzWpgs/)（对象初始化器）了。
+
+  >   Tuple<int, string>[] tupleToken = {
+
+- C#里面的方法基本都是首字母大写，比如 **sb.Append**,经常写成了 **sb.append**.....
+
