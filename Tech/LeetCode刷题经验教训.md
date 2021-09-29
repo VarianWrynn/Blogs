@@ -467,7 +467,7 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 
 
 
-### 第一次提交code
+### 第一次提交code（贪婪算法）
 
 ```C#
 public class Solution {
@@ -530,4 +530,30 @@ public class Solution {
   >   Tuple<int, string>[] tupleToken = {
 
 - C#里面的方法基本都是首字母大写，比如 **sb.Append**,经常写成了 **sb.append**.....
+
+
+
+### 第二次提交code （贪婪算法）
+
+```c#
+public class Solution {
+    public string IntToRoman(int num) {
+       int[] values =   {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+       string[] symbols={"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+       StringBuilder sb = new StringBuilder();
+       for(int i=0;i<=values.Length;i++){//这里的小于等于无所谓，因为num为0就会跳出，但是最好要小于，因为这个是数值下标的指示器
+           int curValue= values[i];
+           string curSybol= symbols[i];
+           while(num>=curValue){
+               sb.Append(curSybol);
+               num-=curValue;
+           }
+           if(num==0){
+               break;
+           }
+       }
+       return sb.ToString();
+    }
+}
+```
 
