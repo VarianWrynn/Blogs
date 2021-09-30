@@ -2,7 +2,33 @@
 
 @(.NET开发)[编程语言, 技术扫盲, 命令式编程, LeetCode]
 
+## 写在最前面
 
+
+
+### **刷题方法：**
+
+- 第一遍：可以先思考，之后看参考答案刷，结合其他人的题解刷。思考、总结并掌握本题的类型，思考方式，最优题解。
+- 第二遍：先思考，回忆最优解法，并与之前自己写过的解答作比对，总结问题和方法。
+- 第三遍：提升刷题速度，拿出一个题，就能够知道其考察重点，解题方法，在短时间内写出解答。
+
+### **定期总结：**
+
+- 按照题目类型进行总结：针对一类问题，总结有哪些解题方法，哪种方法是最优的，为什么。
+- 总结重点：有些题你刷了好多遍都还是不会，那就要重点关注，多思考解决方法，不断练习强
+
+
+
+### **结合图解刷题：**
+
+有些人认为刷题比较枯燥，比较抽象。那你可以结合动画图解刷题。
+
+
+
+作者：程序员客栈
+链接：https://www.zhihu.com/question/36738189/answer/864005192
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
 
@@ -556,4 +582,16 @@ public class Solution {
     }
 }
 ```
+
+
+
+## 2021-9-29 [Integer-to-roman](https://leetcode-cn.com/problems/integer-to-roman/) （理解取模）
+
+1. [What is modular arithmetic?](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
+
+2. [Understanding The Modulus Operator %](https://stackoverflow.com/questions/17524673/understanding-the-modulus-operator)
+
+   
+
+## 2021-9-30
 
