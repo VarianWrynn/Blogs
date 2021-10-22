@@ -145,5 +145,5 @@ In the next article we will explain what it means and how it is related to the e
 ## Reference 
 
 1. [What is modular arithmetic?--khanacademy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
-2. [[Understanding The Modulus Operator %](https://stackoverflow.com/questions/17524673/understanding-the-modulus-operator)--Stackoverflow](https://stackoverflow.com/questions/17524673/understanding-the-modulus-operator/17525046)
+2. [[Understanding The Modulus Operator %](https://stackoverflow.com/questions/17524673/understanding-the-modulus-operator)
 
