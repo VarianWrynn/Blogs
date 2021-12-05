@@ -1,25 +1,8 @@
-#How I Write SQL, Part 1: Naming Conventions
+# How I Write SQL, Part 1: Naming Conventions
+
 @(技术扫盲帖)[Naming Conventions, 命名规范, SQL命名规范]
 
 [toc]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Background
