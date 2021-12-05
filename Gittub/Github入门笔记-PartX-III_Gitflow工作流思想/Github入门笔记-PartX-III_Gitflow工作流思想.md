@@ -3,7 +3,21 @@
 
 [toc]
 
-
+* [Github入门笔记\-PartX\-III Gitflow工作流思想](#github入门笔记-partx-iii-gitflow工作流思想)
+  * [1\. Overview](#1-overview)
+  * [2\. master分支](#2-master分支)
+  * [3\. Dev分支](#3-dev分支)
+    * [3\.1 Code Review](#31-code-review)
+  * [4\. 预发布分支](#4-预发布分支)
+  * [5\. 最终的Gitflow图](#5-最终的gitflow图)
+  * [6\. Bug紧急修复](#6-bug紧急修复)
+  * [7\. 在Github上邀请其他开发者](#7-在github上邀请其他开发者)
+  * [8\. 【精】在公司（组织）内的协同开发](#8-精在公司组织内的协同开发)
+    * [8\.1 如何创建组织](#81-如何创建组织)
+  * [9\. 使用Tag对版本进行管理](#9-使用tag对版本进行管理)
+    * [9\.1 git add](#91-git-add)
+    * [9\.2 把tag提交到远程分支](#92-把tag提交到远程分支)
+  * [11\.  References &amp; Connection](#11--references--connection)
 
 
 
@@ -23,23 +37,29 @@
 
 **Gitlab flow**:
 
+<img src="./bg2015122306.png" alt="img" style="zoom: 80%;" />
+
 对于"持续发布"的项目，它建议在`master`分支以外，再建立不同的环境分支。比如，"开发环境"的分支是`master`，"预发环境"的分支是`pre-production`，"生产环境"的分支是`production`。
 
 开发分支是预发分支的"上游"，预发分支又是生产分支的"上游"。代码的变化，必须由"上游"向"下游"发展。比如，生产环境出现了bug，这时就要新建一个功能分支，先把它合并到`master`，确认没有问题，再`cherry-pick`到`pre-production`，这一步也没有问题，才进入`production`。
 
 只有紧急情况，才允许跳过上游，直接合并到下游分支。
 
+
+
+**上游优先（upsteam first)**
+
+Gitlab flow 的最大原则叫做"上游优先"（upsteam first），即只存在一个主分支`master`，它是所有其他分支的"上游"。只有上游分支采纳的代码变化，才能应用到其他分支。
+
+[Chromium项目](https://www.chromium.org/chromium-os/chromiumos-design-docs/upstream-first)就是一个例子，它明确规定，上游分支依次为：
+
+> 1. Linus Torvalds的分支
+> 2. 子系统（比如netdev）的分支
+> 3. 设备厂商（比如三星）的分支
+
 ## 2. master分支
 
-![@||280x0](./1617884966036.png)
-
-
-
-
-
-
-
-
+<img src="./1617884966036.png" alt="@||280x0" style="zoom: 80%;" />
 
 
 
@@ -58,15 +78,7 @@
 
 ## 4. 预发布分支
 
-![Alt text](./1617887776505.png)
-
-
-
-
-
-
-
-
+<img src="./1617887776505.png" alt="Alt text" style="zoom:80%;" />
 
 
 
@@ -81,9 +93,9 @@
 
 ## 5. 最终的Gitflow图
 
-![Alt text](./1617888007773.png)
 
 
+<img src="./image-20210922104804389.png" alt="image-20210922104804389" style="zoom:80%;" />
 
 
 - B功能开发完毕，也跟A功能一样，经过Code Review,然后并入dev、release最后合到master;
@@ -106,11 +118,7 @@
 
 ## 7. 在Github上邀请其他开发者
 
-![@||660x0](./1618040659338.png)
-
-
-
-
+<img src="./1618040659338.png" alt="@||660x0" style="zoom: 67%;" />
 
 
 
@@ -127,14 +135,14 @@
 
 ### 8.1 如何创建组织
 
-![@||220x0](./1618041156899.png)
+<img src="./1618041156899.png" alt="@||220x0" style="zoom:80%;" />
 
 
 
 
 组织按照公司的发展阶段进行不同的收费，这里选择Free:
 
-<img src="./1618042074575.png" alt="@||390x0" style="zoom:67%;" />
+<img src="./1618042074575.png" alt="@||390x0" style="zoom: 67%;" />
 
 
 
@@ -156,10 +164,6 @@
 
 
 
-
-
-
-
 然后Github会做一些问卷调查，可以选择忽略直接跳过
 <img src="./1618042399707.png" alt="@||520x0" style="zoom:67%;" />
 
@@ -167,7 +171,8 @@
 
 
 
-到现在组织创建完毕，可以在该组织下面点击【Create a new repository】创建仓库了
+到现在组织创建完毕，可以在该组织下面点击【Create a new repository】创建仓库了:
+
 <img src="./1618042462067.png" alt="@||520x0" style="zoom:67%;" />
 
 成功对组织下创建一个新的仓库
@@ -218,7 +223,11 @@ error: failed to push some refs to 'github.com:FuzhouShiningStars/WechatMiniProg
 
 由于git commit提交的版本号都是hash值的，因此不好管理，而市面上一般看到的版本还是v1、v2这样的形式进行版本管理。这就是使用Tag进行的版本管理。
 
+```shell
 git tag -a v1 -m "第一版"
+```
+
+
  - 参数a是添加版本意思
  - m对当前添加的版本进行描述
  - tag是当前最后提交的commit上（默认）
@@ -233,9 +242,7 @@ git tag -a v1 -m "第一版"
 git push origin --tags
 ```
 
-![@||390x0](./1618044252250.png)
-
-
+<img src="./image-20210922105151867.png" alt="image-20210922105151867" style="zoom:67%;" />
 
 这时候再到Github上可以看到已经添加了一个Tag标签页，并且版本是v1,且点击可以进入查看代码详情：
 <img src="./1618044341713.png" alt="@||360x0" style="zoom:80%;" />

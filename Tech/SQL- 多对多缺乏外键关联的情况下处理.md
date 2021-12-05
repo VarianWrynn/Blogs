@@ -249,7 +249,7 @@ SELECT * FROM
 ### 3.4  取模(Modulo)函数的引入
 
 为了方便观察，我们暂时先把`PORID = 660488`数据移除掉：
-```
+```sql
 SELECT ROW_NUMBER() OVER(PARTITION BY PORID ORDER BY REFPO) AS RowNum,PORID,REFPO
  ,ROW_NUMBER() OVER(PARTITION BY PORID ORDER BY REFPO) % 5 AS RowMod
 FROM dbo.T_POReplaceDetails
@@ -316,7 +316,7 @@ SELECT * FROM #TRKs
 
 #### 3.4.1 核心实现
 
-**这里是本业务实现的算法关键所在：通过对两张表数据的取模,然后对两张表的相同的**余数**和组ID（PORID）进行关联，从而实现REFPO和TRK的均匀分配。**
+**这里是本业务实现的算法关键所在：通过对两张表数据的取模,然后对两张表的相同的余数和组ID（PORID）进行关联，从而实现REFPO和TRK的均匀分配。**
 
 **`被取模的数据取决于两边分组count数最小的一方。`**
 
