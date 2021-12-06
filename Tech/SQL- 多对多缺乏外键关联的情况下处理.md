@@ -368,7 +368,7 @@ GROUP BY PORID,REFPO
 
 ### 3.6  STUFF函数引入
 
-```
+```sql
 SELECT PORID,REFPO,
 STUFF((select ',' + t.TRK from #TRKs t where t.PORID = t1.PORID AND 
     t.REFPO = t1.REFPO FOR xml path('')),1,1,'厚礼蟹 ')  AS TRK
@@ -387,7 +387,7 @@ GROUP BY PORID,REFPO
 
 ### 3.7 RIGHT函数引入
 
-```
+```sql
 SELECT PORID,REFPO,RIGHT(x.TRK,LEN(x.TRK)-1) AS TRK FROM 
 (
 	SELECT PORID,REFPO,

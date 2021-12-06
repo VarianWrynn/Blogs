@@ -81,55 +81,10 @@ Tall tress grow on the far south mountain
 
 > 用荇菜或左或右漂浮不定比喻求爱的不易，也以物候交代出男女热恋的时令；同时，作者以赞颂的口吻勉励求取荇菜，隐喻“君子”的努力追求“淑女”。
 
-
-
-By riverside a pair
-
-Of turtledoves are cooing; 
-
-There is a maiden fair
-
-Whom a young man is wooing.
-
-
-
-Water flows left and right
-
-Of cresses[^1] here and there; 
-
-The youth yearns day and night
-
-For the maiden so fair. 
-
-
-
-His yearning grows so strong
-
-He cannot fall asleep, 
-
-But tosses all night long
-
-So deep in love, so deep!
-
-
-
-Now gather left and right
-
-Cress long or short and tender! 
-
-O lute, play music light
-
-For the fiancee so slender!
-
-
-
-Feast friends at left and right
-
-On cresses cooked tender!
-
- O bells and drums, delight
-
-The bride so sweet and slender.
+| 从左往右读                                                   |                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| By riverside a pair<br />Of turtledoves are cooing; <br />There is a maiden fair<br />Whom a young man is wooing. | Water flows left and right<br />Of cresses[^1] here and there; <br />The youth yearns day and night<br />For the maiden so fair. | His yearning grows so strong<br />He cannot fall asleep, <br />But tosses all night long<br />So deep in love, so deep! |
+| Now gather left and right<br />Cress long or short and tender! <br />O lute, play music light<br />For the fiancee so slender! | Feast friends at left and right<br />On cresses cooked tender!<br /> O bells and drums, delight<br />The bride so sweet and slender. |                                                              |
 
 
 
