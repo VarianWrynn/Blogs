@@ -12,9 +12,10 @@
     * [2\.2 大O表示法指出了最糟糕情况下的运行时间](#22-大o表示法指出了最糟糕情况下的运行时间)
     * [2\.3 一些常见的大O运行时间](#23-一些常见的大o运行时间)
   * [3\. 小结：](#3-小结)
-  * [4\. Reference](#4-reference)
-  
-  
+  * [4\. 大O的常量问题](#4-大o的常量问题)
+  * [5\. Reference](#5-reference)
+
+
 
 假设现在你需要从一个有序的数字列表中查找出一个数。起先你打算写个程序用逐个检查检查匹配，如果列表中包含100个数字，你**最多**需要猜100次。一百次也许对计算机来说是小菜一碟。
 
@@ -138,6 +139,38 @@ print(binary_search(my_list,12))
 3. 讨论算法的速度时，我们说的是**随着输入的增加，其运行时间将以什么样的速度增加**。
 4. $O(log n)$比$O(n)$快，**当需要搜索的元素越多时，牵着比后快得越多**。
 
-## 4. Reference
-1. 常用公式参考地址：
+
+
+## 4. 大O的常量问题
+
+> 4.3 再谈大 O 表示法 P53
+
+
+
+算法所需的固定时间量，被称为常量。例如，`print_ items`所需的时间可能是10毫秒 * n，而print_items2所需的时间为1秒 * n。
+
+通常不考虑这个常量，因为如果两种算法的大O运行时间不同，这种常量将无关紧要。就拿 二分查找和简单查找来举例说明。假设这两种算法的运行时间包含如下常量。
+
+ <img src="./img/image-20211230162118058.png" alt="image-20211230162118058" style="zoom:90%;" />
+
+你可能认为，简单查找的常量为10毫秒，而二分查找的常量为1秒，因此简单查找的速度要快得多。现在假设你要在包含40亿个元素的列表中查找，所需时间将如下。
+
+| Name     | 算法           | 时间  |
+| -------- | -------------- | ----- |
+| 简单查找 | 10毫秒 * 40 亿 | 463天 |
+| 二分查找 | 1秒 * 32       | 32秒  |
+
+正如你看到的，二分查找的速度还是快得多，**常量根本没有什么影响**。
+
+但有时候，常量的影响可能很大，对 ***快速查*** 找和 ***合并查找*** 来说就是如此。快速查找的常量 比 合并查找小，因此如果它们的运行时间都为 $O(n log n)$，快速查找的速度将更快。实际上，快速查 找的速度确实更快，因为相对于遇上最糟情况，它遇上平均情况的可能性要大得多。
+
+
+
+## 5. Reference
+
+1. [Grokking Algorihtms](https://www.manning.com/books/grokking-algorithms) - An illustrated guide for programmers and other curious people.
+
+2. Grok：to understand completely and intuitvely  v.〈美俚〉(由于移情作用而)透悉[彻悟] / 通过感觉意会
+
+   ***Grok*** [/ˈɡrɒk/](https://en.wikipedia.org/wiki/Help:IPA/English) is a [neologism](https://en.wikipedia.org/wiki/Neologism) coined by American writer [Robert A. Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein) for his 1961 [science fiction](https://en.wikipedia.org/wiki/Science_fiction) novel *[Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land)*. While the *[Oxford English Dictionary](https://en.wikipedia.org/wiki/Oxford_English_Dictionary)* summarizes the meaning of *grok* as "to understand intuitively or by empathy, to establish rapport with" and "to empathize or communicate sympathetically (with); also, to experience enjoyment",[[1\]](https://en.wikipedia.org/wiki/Grok#cite_note-OED-1) Heinlein's concept is far more nuanced, with critic Istvan Csicsery-Ronay Jr. observing that "the book's major theme can be seen as an extended definition of the term."[[2\]](https://en.wikipedia.org/wiki/Grok#cite_note-CR-2) The concept of *grok* garnered significant critical scrutiny in the years after the book's initial publication. The term and aspects of the underlying concept have become part of communities such as [computer science](https://en.wikipedia.org/wiki/Computer_science). (--Wikipedia)
 
