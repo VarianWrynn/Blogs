@@ -133,7 +133,7 @@ Used to speed up queries. Formed from multiple columns usually. They need to be 
 
 ## 2. PM Interview
 
-### 1.  Introduce yourself
+### 1.  [Tell me about yourself](https://www.thebalancecareers.com/tell-me-about-yourself-job-interview-question-2060956)
 
 This is Lee here, and I am very pleased to apply **for** product manager, ~~I think I am quite suitable for this position because~~ I think this position is quite suitable for me because:
 - **First of all**, I have more than 6 years of product management experience,  ~~and familiar with the~~ mastering the required skill as being a product manage, such as market research, competitive product analysis, product requirement analysis, product designing and reviewing with team members.
