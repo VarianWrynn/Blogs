@@ -378,16 +378,7 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 
 在新建了一个WOW[中文对照](https://github.com/VarianWrynn/WOWEnglishName)的Markdown项目的时候，遇到图床一直展示不出来，不论怎么尝试重新上传都不行。
 
-
-![@||790x0](./1616390507557.png)
-
-
-
-
-
-
-
-
+<img src="./1616390507557.png" alt="@||790x0" style="zoom:67%;" /> 
 
 在Google上检索了很久都没有结果（后来才知道国外基本不会遇到这种问题）。最后在中文世界找到了解决方法。
 
@@ -395,7 +386,7 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 1. **C:\Windows\System32\drivers\etc\hosts 进入hosts**文件
 2. 在hosts文件文件最后面加入如下代码：
 
-```
+```vbscript
 # GitHub Start 
 192.30.253.112    github.com 
 192.30.253.119    gist.github.com
@@ -418,15 +409,7 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 ```
 3. 重新打开之前的.md文件即可显示图片
 
-![Alt text](./1616390553308.png)
-
-
-
-
-
-
-
-
+<img src="./1616390553308.png" alt="Alt text" style="zoom: 50%;" />   
 
 
 
@@ -439,7 +422,29 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 后来FHS规定用来放配置文件，就解释为："**`Editable Text Configuration`**" 或者 "**`Extended Tool Chest`**"。
 
 
+
+### 9.8 [How do I make a Git commit in the past?](https://stackoverflow.com/questions/3895453/how-do-i-make-a-git-commit-in-the-past)
+
+```vbscript
+git commit --date="10 day ago" -m "Your commit message" 
+```
+
+<img src="./image-20220505221246794.png" alt="image-20220505221246794" style="zoom:80%;" /> 
+
+
+
+```asciiarmor
+git commit --date=1649504560 -m 'xxx'
+```
+
+
+
+甚至还提供了一个专门的工具地址：https://github.com/OBKoro1/autoCommit
+
+
+
 ## 10. 参考链接
+
 1. [Github入门笔记-PartA](https://www.evernote.com/l/ALrece8X4B9MzIkmhiQfbxOcBBD3Zt-sM7U/)
 2. [Github入门笔记-PartB](https://www.evernote.com/l/ALo59sgLmrdD_JgeV8NsMqJpISPYL_u72cY/)
 3. 《Github入门与实践》

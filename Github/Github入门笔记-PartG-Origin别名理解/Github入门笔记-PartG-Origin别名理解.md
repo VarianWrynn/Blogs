@@ -44,7 +44,7 @@ git push -u origin master
 
 最近刚设置了一个新的repository，在本地使用git add 命令与原创的仓库做了关联：
 
-```vim
+```haskell
 $ git remote add WOWEnglishName git@github.com:VarianWrynn/WOWEnglishName.git
 ```
 请注意由于我个把月才会push一个仓库，因此在这里把add的参数记错了，实际上这里应该是 git remote add `origin`,但是我以为这里应该是仓库名称，输入了 WOWEnglishname.
