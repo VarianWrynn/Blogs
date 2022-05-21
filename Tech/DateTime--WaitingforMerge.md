@@ -140,3 +140,126 @@ and **Pacific Daylight Time (PDT)** when daylight saving time (mid-March to earl
 GMT+1是不列颠的夏令时（summer time）的时间
 
 The idea of aligning waking hours to daylight hours to conserve candles was first proposed in 1784 by US [polymath](https://en.wikipedia.org/wiki/Polymath) [Benjamin Franklin](https://en.wikipedia.org/wiki/Benjamin_Franklin).
+
+
+
+## 数据库里面的时区
+
+
+
+### MMSQL
+
+#### [DATEDIFF](https://www.w3schools.com/sql/func_sqlserver_datediff.asp) 函数 与UTC的时差
+
+Return the difference between tow date values. In years , for example
+
+```sql
+SELECT DATEDIFF(year, '2017/08/25', '2011/08/25') AS DateDiff;
+-- DateDiff: -6
+```
+
+**Date2 -  Date1**
+
+因此,要比较当前时间（比如北京时间）和UTC时间的差距，是要把UTC时间放在Date1位置：
+
+
+
+```sql
+SELECT  DATEDIFF(HOUR, GETUTCDATE(),GETDATE()) as 'GetDate-UTC',
+        DATEDIFF(HOUR, GETUTCDATE(),'2022-5-16 15:16:50') as 'Beijing-UTC'
+;
+```
+
+
+
+**执行结果：**
+
+<img src="./img/image-20220516151848802.png" alt="image-20220516151947307" style="zoom:80%;" /> 
+
+- 可以看到GetDate()函数获取回来的是数据库服务器的时间，是-7，也就是对应[PDT](https://www.timeanddate.com/time/map/)([Pacific Daylight Time](https://www.timeanddate.com/time/zones/pdt))的时间；
+
+  <img src="./img/image-20220516152306907.png" alt="image-20220516152306907" style="zoom: 80%;" /> 
+
+
+
+
+
+#### DATEADD函数：UTC时间+时区
+
+```sql
+SELECT DATEADD(HOUR, 8, GETUTCDATE()) AS DateAdd;
+```
+
+<img src="./img/image-20220516153137702.png" alt="image-20220516153137702" style="zoom:80%;" />
+
+
+
+#### [AT TIME ZONE](https://docs.microsoft.com/en-us/sql/t-sql/queries/at-time-zone-transact-sql?view=sql-server-ver15) 
+
+在MS Managment Studio 下看起来没什么问题：
+
+```sql
+SELECT  GETUTCDATE() AS UTCTime,  
+        GETUTCDATE() AT TIME ZONE 'UTC-08' AS 'UTC-8',
+        GETUTCDATE() AT TIME ZONE 'China Standard Time' AS 'BeijingTime'
+```
+
+<img src="./img/image-20220516153459900.png" alt="image-20220516153459900" style="zoom:67%;" /> 
+
+
+
+但是在Metabase下有问题：
+
+<img src="./img/image-20220516153622798.png" alt="image-20220516153622798" style="zoom:80%;" /> 
+
+结论：
+
+- 尽量不用At Time Zone这个方法；
+- 如果要使UTC转化为北京时间，则优先考虑用DateAdd方法
+
+
+
+1. [How to Convert UTC to Local Time Zone in SQL Server in SQL Server](https://popsql.com/learn-sql/sql-server/how-to-convert-utc-to-local-time-zone-in-sql-server)
+
+
+
+#### time_zone_info
+
+```sql
+select * from sys.time_zone_info;
+```
+
+```sql
+name                            | current_utc_offset | is_currently_dst 
+--------------------------------+--------------------+------------------
+Dateline Standard Time          | -12:00             | false            
+UTC-11                          | -11:00             | false                      
+Marquesas Standard Time         | -09:30             | false            
+Alaskan Standard Time           | -09:00             | false            
+UTC-09                          | -09:00             | false            
+Pacific Standard Time (Mexico)  | -08:00             | false            
+UTC-08                          | -08:00             | false            
+Pacific Standard Time           | -08:00             | false            
+......
+```
+
+### MySQL
+
+#### [Convert_TZ](https://stackoverflow.com/questions/2187593/can-mysql-convert-a-stored-utc-time-to-local-timezone)
+
+```sql
+select count(1)  from sales_order
+where 
+status = 3  
+and   CONVERT_TZ (updated, '+00:00','+08:00') >=  '2022-5-14, 00:00'
+and CONVERT_TZ(updated,'+00:00','+08:00' ) <= '2022-5-15, 01:07'
+order by updated asc
+```
+
+<img src="./img/image-20220516155406157.png" alt="image-20220516155406157" style="zoom:80%;" /> 
+
+
+
+1. [Dates and Times in SQL Server: AT TIME ZONE](https://bornsql.ca/blog/dates-and-times-in-sql-server-at-time-zone/)
+2. [How to Convert UTC to Local Time in MySQL](https://ubiq.co/database-blog/how-to-convert-utc-to-local-time-in-mysql/)
+3. [Convert Datetime column from UTC to local time in select statement](https://stackoverflow.com/questions/8038744/convert-datetime-column-from-utc-to-local-time-in-select-statement)
