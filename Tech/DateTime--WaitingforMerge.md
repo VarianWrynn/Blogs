@@ -90,9 +90,9 @@ See [List of UTC time offsets](https://en.wikipedia.org/wiki/List_of_UTC_time_of
 
 ### UTC−07:00
 
-最神奇的是维基百科竟然建立起了UTC Offset一系列的超链接， 比如，如果想查询UTC减7是哪些时差，则可以从URL上这样访问：
+最神奇的是维基百科竟然建立起了UTC Offset一系列的超链接， 比如，如果想查询UTC减7是哪些时差，则可以从[URL](https://en.wikipedia.org/wiki/UTC%E2%88%9207:00)上这样访问：
 
-https:/ /en.wikipedia.org/wiki/**UTC−07:00**.
+https://en.wikipedia.org/wiki/UTC−07:00
 
 **UTC−07:00** is an identifier for a [time offset from UTC](https://en.wikipedia.org/wiki/UTC_offset) of −07:00. In North America, it is observed in the [Mountain Time Zone](https://en.wikipedia.org/wiki/Mountain_Time_Zone) during [standard time](https://en.wikipedia.org/wiki/Standard_time), and in the [Pacific Time Zone](https://en.wikipedia.org/wiki/Pacific_Time_Zone) during the other eight months (see [Daylight saving time](https://en.wikipedia.org/wiki/Daylight_saving_time)). Some locations use it year-round.
 
@@ -219,6 +219,69 @@ SELECT  GETUTCDATE() AS UTCTime,
 
 
 
+##### **2022-6-10 更新：**
+
+```sql
+SELECT GETDATE() AS GetDateTime,
+       GETUTCDATE() AS UTCTime,
+       GETDATE() AT TIME ZONE 'China Standard Time' AS OrderDate_TimeZoneBeijing,
+       GETUTCDATE() AT TIME ZONE 'China Standard Time' AS OrderDate_TimeZoneBeijing2,
+       GETDATE() AT TIME ZONE 'Pacific Standard Time' AS OrderDate_TimeZonePST,
+       GETDATE() AT TIME ZONE 'Central European Standard Time' AS OrderDate_TimeZoneCET;
+```
+
+<img src="./img/image-20220610174200782.png" alt="image-20220610174200782" style="zoom:80%;" />
+
+
+
+- Metabase真有bug（MSSQL数据库下）！
+
+
+
+
+
+```sql
+SELECT GETDATE() AS GetDateTime,
+       GETUTCDATE() AS UTCTime,
+       GETDATE() AT TIME ZONE 'China Standard Time' AS OrderDate_TimeZoneBeijing,
+       GETDATE() AT TIME ZONE 'Pacific Standard Time' AS OrderDate_TimeZonePST,
+       GETDATE() AT TIME ZONE 'Central European Standard Time' AS OrderDate_TimeZoneCET;
+```
+
+
+
+<img src="./img/image-20220610174911879.png" alt="image-20220610174911879" style="zoom:90%;" />
+
+
+
+| Time                          | Value                              | Remark                                                       |
+| ----------------------------- | ---------------------------------- | ------------------------------------------------------------ |
+| GetDateTime                   | **2022-06-10 02:49:20.800**        | 服务器部署在美国，<br />所以GetDateTime**美西本地**的时间（PST） |
+| **UTCTime**                   | 2022-06-10 09:49:20.800            | UTC时间，时区是+0；                                          |
+| OrderDate_TimeZone**Beijing** | 2022-06-10 02:49:20.800 +**08:00** | 美西本地时间，时区是+8 （北京时区）<br />结论是：时间还是美西的时间，+8表示的是时区 |
+| OrderDate_TimeZone**PST**     | 2022-06-10 02:49:20.800 -07:00     | 美西本地时间，时区是-7 （美西本地时区）                      |
+| OrderDate_TimeZone**CET**     | 2022-06-10 02:49:20.800 +**02:00** | 美西本地时间，时区是+2 （欧洲时间）                          |
+
+
+
+<img src="./img/image-20220610174923183.png" alt="image-20220610174923183" style="zoom:80%;" /><img src="./img/image-20220610174928880.png" alt="image-20220610174928880" style="zoom:80%;" />
+
+
+
+
+
+那么，这对我有什么意义呢？
+
+https://bsitc-bridge48.com/cartrover/sales/sales/salesInfo/CSNCS407112203
+
+<img src="./img/image-20220610175656569.png" alt="image-20220610175656569" style="zoom:80%;" /> <img src="./img/image-20220610175723526.png" alt="image-20220610175723526" style="zoom: 80%;" />
+
+<img src="./img/image-20220610175816324.png" alt="image-20220610175816324" style="zoom: 80%;" /> 
+
+
+
+**Reference:**
+
 1. [How to Convert UTC to Local Time Zone in SQL Server in SQL Server](https://popsql.com/learn-sql/sql-server/how-to-convert-utc-to-local-time-zone-in-sql-server)
 
 
@@ -263,3 +326,20 @@ order by updated asc
 1. [Dates and Times in SQL Server: AT TIME ZONE](https://bornsql.ca/blog/dates-and-times-in-sql-server-at-time-zone/)
 2. [How to Convert UTC to Local Time in MySQL](https://ubiq.co/database-blog/how-to-convert-utc-to-local-time-in-mysql/)
 3. [Convert Datetime column from UTC to local time in select statement](https://stackoverflow.com/questions/8038744/convert-datetime-column-from-utc-to-local-time-in-select-statement)
+
+
+
+## 其他
+
+
+
+### Carrrover API - [Timestamp](https://developers.cartrover.com/#intro)
+
+Timestamp fields should be submitted to the API in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format in order to specify the timezone.
+
+Timestamp fields returned by the API will be formatted in ISO 8601 and always be in the UTC timezone.
+
+> 2018-08-27T02:24:58+00:00
+
+If you are passing a timestamp as a GET parameter, **YOU MUST** encode the plus symbol (`+`) as `+`
+
