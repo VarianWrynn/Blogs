@@ -1,6 +1,16 @@
+# UTC, PST, PDT时间
+
+
+
 [toc]
 
 
+
+## 一句话总结这篇文章
+
+
+
+**`2022-06-06T09:22:48-07:00`**因为后面的***时区***是 -07，因为这个-7 表示是时区，该时区晚于UTC时间7个小时，所以前面的***时间点***是美西时间。
 
 
 
@@ -280,6 +290,35 @@ https://bsitc-bridge48.com/cartrover/sales/sales/salesInfo/CSNCS407112203
 
 
 
+- 我需要能看懂**UTC**的两种表达方式：**`2022-06-06T16:18:21+00:00`** 和 **`2022-06-06T09:22:48-07:00`** 其实是等价的。
+
+- **`2022-06-06T16:18:21+00:00`**  因为后面的***时区***是+00，表明前面的***时间点***是UTC的时间
+
+- **`2022-06-06T09:22:48-07:00`**因为后面的***时区***是 -07，表明前面的***时间点***是美西时间，和UTC时间差距-7（也就是UTC时间比美西时间早了7个小时）。通过这个-7时区,可以直接换算出UTC的时间点是 
+
+  ```sql
+  SELECT DATEADD(HOUR,7,'2022-06-06T09:22:48')
+  -- 2022-06-06 16:22:48.000
+  ```
+
+  这里最令人迷惑的地方是-7，按照直觉应该是 `DATEADD(HOUR,-7,'2022-06-06T09:22:48')`,但是这个-7不是表示minus seven, 而是一个指示器，指示当前的时间比UTC时间**晚**了7个小时：
+
+  <img src="./img/image-20220614102213802.png" alt="image-20220614102213802" style="zoom:67%;" /> 
+
+  正是由于对这个-7处于直觉上的错误理解，我直接闹了个大乌龙：
+
+  <img src="./img/image-20220614102334930.png" alt="image-20220614102334930" style="zoom:80%;" /> 
+
+​       最后是通过https://www.worldtimebuddy.com/ ，根据Cartrover UI的Loaded Time,反推回去得出这两个时间其实是UTC的不同表达方式：
+
+​		<img src="./img/image-20220614102721605.png" alt="image-20220614102721605" style="zoom:67%;" /> 
+
+
+
+最后牢记一个结论:
+
+**`2022-06-06T09:22:48-07:00`**因为后面的***时区***是 -07，因为这个-7 表示是时区，该时区晚于UTC时间7个小时，所以前面的***时间点***是美西时间。
+
 **Reference:**
 
 1. [How to Convert UTC to Local Time Zone in SQL Server in SQL Server](https://popsql.com/learn-sql/sql-server/how-to-convert-utc-to-local-time-zone-in-sql-server)
@@ -343,3 +382,16 @@ Timestamp fields returned by the API will be formatted in ISO 8601 and always be
 
 If you are passing a timestamp as a GET parameter, **YOU MUST** encode the plus symbol (`+`) as `+`
 
+
+
+
+
+### 如何在Windows上添加UTC时间
+
+<img src="./img/image-20211201085022152.png" alt="image-20211201085022152" style="zoom:80%;" /><img src="./img/image-20211201085128998.png" alt="image-20211201085128998" style="zoom: 80%;" />
+
+
+
+
+
+<img src="./img/image-20211201085220343.png" alt="image-20211201085220343" style="zoom: 67%;" />  <img src="./img/image-20211201085348138.png" alt="image-20211201085348138" style="zoom: 67%;" />  
