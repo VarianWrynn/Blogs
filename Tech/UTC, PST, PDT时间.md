@@ -386,6 +386,12 @@ order by updated asc
 
 
 
+## HTTP请求里面的时间戳
+
+<img src="./img/image-20220615164037038.png" alt="image-20220615164037038" style="zoom:80%;" /> 
+
+
+
 ## 其他
 
 ### Carrrover API - [Timestamp](https://developers.cartrover.com/#intro)
