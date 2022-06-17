@@ -290,7 +290,7 @@ SELECT GETDATE() AS GetDateTime,
 
 
 
-那么，这对我有什么意义呢？
+#### 那么，这对我有什么意义呢？
 
 https://bsitc-bridge48.com/cartrover/sales/sales/salesInfo/CSNCS407112203
 
@@ -315,7 +315,7 @@ https://bsitc-bridge48.com/cartrover/sales/sales/salesInfo/CSNCS407112203
 
   <img src="./img/image-20220614102213802.png" alt="image-20220614102213802" style="zoom:67%;" /> 
 
-  正是由于对这个-7处于直觉上的错误理解，我直接闹了个大乌龙：
+  正是由于对这个***-7***处于直觉上的错误理解，我直接闹了个大乌龙：
 
   <img src="./img/image-20220614102334930.png" alt="image-20220614102334930" style="zoom:80%;" /> 
 
@@ -332,6 +332,35 @@ https://bsitc-bridge48.com/cartrover/sales/sales/salesInfo/CSNCS407112203
 **Reference:**
 
 1. [How to Convert UTC to Local Time Zone in SQL Server in SQL Server](https://popsql.com/learn-sql/sql-server/how-to-convert-utc-to-local-time-zone-in-sql-server)
+
+
+
+##### 关于跨天的订单
+
+以[这笔CSN-CS408350529](https://bsitc-bridge48.com/cartrover/sales/sales/salesInfo/CSNCS408350529)为例:
+
+```php
+"created_date_time": "2022-06-14T00:42:14+00:00",
+```
+
+```php
+        "2022-06-13T17:47:20-07:0062a7da98518db": {
+            "basic info": {
+                "created time": "2022-06-13T17:47:20-07:00",
+                "create by username": null,
+                "create by ip": "Unknown IP Address"
+            },
+```
+
+```sql
+SELECT top 10  * from  PO where MerchantPONUM = 'CS408350529'
+```
+
+<img src="./img/image-20220617102752665.png" alt="image-20220617102752665" style="zoom:80%;" /> 
+
+因此会出现 `SysDate` 比 `OrderDate`早的[情况](https://bsitc.on.spiceworks.com/tickets/open/24899/activity)。
+
+<img src="./img/image-20220617103000834.png" alt="image-20220617103000834" style="zoom: 80%;" /> 
 
 
 
