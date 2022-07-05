@@ -3,10 +3,6 @@
 
 [toc]
 
-
-
-
-
 * [Github入门笔记\-PartA](#github入门笔记-parta)
   * [1\. 为什么Github受欢迎](#1-为什么github受欢迎)
   * [2\. <a href="https://www\.ruanyifeng\.com/blog/2015/08/git\-use\-process\.html" rel="nofollow">流程描述</a>](#2-流 程描述)
@@ -42,15 +38,7 @@
 
 --------------------------------
 
-![@||400x0](./1583071818904.png)
-
-
-
-
-
-
-
-
+<img src="./img/1583071818904.png" alt="@||400x0" style="zoom: 80%;" /> 
 
 
 
@@ -68,21 +56,7 @@
 
 ## 2. [流程描述](https://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
 
-![@||560x0](./1584942993244.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="./img/1584942993244.png" alt="@||560x0" style="zoom:80%;" /> 
 
 
 
@@ -104,17 +78,7 @@
 
 通常来说 `clone` 来的仓库实际上与原仓库并没有任何关系。所以我们需要将原仓库设置为远程仓库，从该仓库获取（`fetch`）数据与本地仓库进行合并（`merge`），让本地仓库的源代码保持最新状态:
 
-![@||480x0](./1592877521454.png)
-
-
-
-
-
-
-
-
-
-
+<img src="./img/1592877521454.png" alt="@||480x0" style="zoom: 80%;" />
 
 
 
@@ -126,7 +90,7 @@
 1. 在`Jira`创建**Story**类型事务，得到`AT-XXXX`
 2. 拉取***master***最新代码
 
-```
+```gas
 git clone https://github.com/edmodo/automodo.git
 git checkout master #切换到master
 git pull  #拉取master最新代码
@@ -134,21 +98,21 @@ git pull  #拉取master最新代码
 
 3. 创建新的分支
 
-```
+```gas
 git checkout -b AT-2903 #新建分支
 ```
 
 4. 修改代码
 5. 提交修改到暂存区
 
-```
+```gas
 git status
 git add<filename>
 ```
 
 6. 提交代码到远程库
 
-```
+```gas
 git diff #查看版本改动情况
 git config --global user.name "xiaoqing"
 git config --global user.emal zoe@example.com
@@ -162,14 +126,12 @@ clone是把master复制到本地来 后面好基于`master`在本地`fork`分支
 
 - **fork**:
 
-```vim
+```gas
 git checkout -b <branch_name>
 ```
 
 ###  2.3 工作区/暂存区/仓库/远程仓库/快照
-![@||666x0](./1592472657652.png)
-
-
+<img src="./img/1592472657652.png" alt="@||666x0" style="zoom:80%;" /> 
 
 
 
@@ -190,22 +152,25 @@ git checkout -b <branch_name>
 |**commit**|快照||
 
 1. 需要通知 Git 哪些文件发生了变动。所有变动的文件，Git 都记录在一个区域，叫做"暂存区"（英文叫做 **`index`** 或者 **`stage`**）。通过`git add --all`来实现。
+
 2. 暂存区保留本次变动的文件信息，等到修改了差不多了，就要把这些信息写入历史，这就相当于生成了当前项目的一个快照（**snapshot**）。
-> 项目的历史就是由不同时点的快照构成。Git 可以将项目恢复到任意一个快照。快照在 Git 里面有一个专门名词，叫做 **`commit`**，生成快照又称为完成一次提交。
+
+   > 项目的历史就是由不同时点的快照构成。Git 可以将项目恢复到任意一个快照。快照在 Git 里面有一个专门名词，叫做 **`commit`**，生成快照又称为完成一次提交。
 3. Git 提供了git commit命令，简化提交操作。保存进暂存区以后，只要git commit一个命令，就同时提交目录结构和说明，生成快照。
-```
-$ git commit -m "first commit"
-```
+
+   ```gas
+   $ git commit -m "first commit"
+   ```
 4. `git checkout`命令用于切换到某个快照。
 5. `index/stage`的[作用是允许roll-back](https://www.bilibili.com/video/BV1tf4y1e7yt?p=6&spm_id_from=pageDriver)一个提交。
 
-![@||300x0](./1616411039289.png)
+<img src="./img/1616411039289.png" alt="@||300x0" style="zoom: 67%;" /> 
 
 
 
+<img src="./img/commits-are-snapshots-not-diffs.png" alt="Commits are snapshots, not diffs" style="zoom:50%;" /> 
 
-
-
+> # [Commits are snapshots, not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/)
 
 
 
@@ -215,7 +180,7 @@ $ git commit -m "first commit"
 
 在 GitHub 这个聚集了世界各地软件开发者的地方，有个在过去绝对是无法想象的事正在飞速地进行着——素未谋面的开发者们隔着半个地球的距离共同开发软件。我们不妨称之为开发者之间的化学反应吧。这种事成为可能，都要归功于一个名为 Pull Request 的功能:
 
-![@||600x0](./1583072623095.png)
+<img src="./img/1583072623095.png" alt="@||600x0" style="zoom:80%;" /> 
 
 Pull Request 是指开发者在本地对源代码进行更改后，向 GitHub 中托管的 Git 仓库请求合并的功能。开发者可以在 Pull Request 上通过评论交流，例如
 - “修正了 BUG，可以合并一下吗？”
@@ -225,7 +190,7 @@ Pull Request 是指开发者在本地对源代码进行更改后，向 GitHub �
 
 GitHub 的 Pull Request 不但能轻松查看源代码的前后差别，还可以对指定的一行代码进行评论（图 1.4）。通过这一功能，开发者们可以针对具体的代码进行讨论，使代码审查的工作变得前所未有地惬意
 
-![Alt text](./1583072700872.png)
+<img src="./img/1583072700872.png" alt="Alt text" style="zoom:80%;" /> 
 
 ### 3.1 Social Coding
 
@@ -288,7 +253,7 @@ $ git coffig --global user.email "your_emal@example.com"
 备注：
 “`~/.gitconfig`”这个文件是存在`C:\Users\UserName`目录下
 
-![@||480x0](./1583288741208.png)
+<img src="./img/1583288741208.png" alt="@||480x0" style="zoom:80%;" /> 
 
 ### 4.3 提高命令输出的可读性
 
@@ -300,7 +265,7 @@ $ git config --global color.ui auto
 
 “~/.gitconfig”中会增加下面一行:
 
-![@||480x0](./1583290261651.png)
+<img src="./img/1583290261651.png" alt="@||480x0" style="zoom:80%;" /> 
 
 
 ### 4.4 通过命令行查看config全局配置
@@ -328,7 +293,7 @@ Enter same passphrase again: 再次输入密码
 
 输入密码后会出现以下结果。
 
-![@||500x0](./1583316191873.png)
+<img src="./img/1583316191873.png" alt="@||500x0" style="zoom:80%;" /> 
 
 **`id_rsa`** 文件是私有密钥，**`id_rsa.pub`** 是公开密钥。
 
@@ -343,7 +308,7 @@ Enter same passphrase again: 再次输入密码
 $ cat ~/.ssh/id_rsa.pub
 ```
 
-![Alt text](./1583316788980.png)
+<img src="./img/1583316788980.png" alt="Alt text" style="zoom:80%;" /> 
 
 
 
@@ -352,13 +317,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 点击右上角的账户设定按钮（[Settings](https://github.com/settings/keys)），选择 SSH Keys 菜单之后，就会出现如图3.2的界面。
 
-![@||800x0](./1583317314968.png)
-
-
-
-
-
-
+<img src="./img/1583317314968.png" alt="@||800x0" style="zoom: 67%;" /> 
 
 
 
@@ -366,18 +325,12 @@ $ cat ~/.ssh/id_rsa.pub
 点击Add SSH Key，会出现Title和Key两个输入框。在 Title 中输入适当的密钥名称。Key 部分请粘贴 id_rsa.pub 文件里的内容。
 
 添加完出现如下的报错，原因是因为**没有**把开头的`ssh-rsa`一起复制上。
-![@||400x0](./1583318525517.png)
+<img src="./img/1583318525517.png" alt="@||400x0" style="zoom:80%;" /> 
 
 
 
 一起复制上之后添加就通过了：
-![Alt text](./1583319015453.png)
-
-
-
-
-
-
+<img src="./img/1583319015453.png" alt="Alt text" style="zoom:80%;" /> 
 
 
 
@@ -385,19 +338,13 @@ $ cat ~/.ssh/id_rsa.pub
 ### 5.2 SSH通讯验证
 添加成功之后，创建账户时所用的邮箱会接到一封提示“公共密钥添加完成”的邮件。
 
-![@||300x0](./1583319428139.png)
-
-
-
-
-
-
+<img src="./img/1583319428139.png" alt="@||300x0" style="zoom:80%;" /> 
 
 
 
 完成以上设置后，就可以用手中的私人密钥与 GitHub 进行认证和通信了。让我们来实际试一试。
 
-```vim
+```gas
 $ ssh -T git@github.com
 The authenticity of host 'github.com (207.97.227.239)' can't be established.
 RSA key fingerprint is fingerprint值 .
@@ -406,10 +353,10 @@ Are you sure you want to continue connecting (yes/no)? 输入yes
 
 出现如下结果即为成功。
 
-```vim
+```gas
 Hi VarianWryy! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-![@第一次为密码输错||](./1583319635240.png)
+<img src="./img/1583319635240.png" alt="@第一次为密码输错||" style="zoom: 80%;" /> 
 
 > 这里出现 **Enter passphrase for key '/c/Users/lee.wang/.ssh/id_rsa':** 需要注意输入密码。
 > 2020-12-14
@@ -417,13 +364,13 @@ Hi VarianWryy! You've successfully authenticated, but GitHub does not provide sh
 ### 5.3 SSH可能并不校验邮箱
 
 这个小结是我在操作完 `6-牛刀小试`之后观察到的。在执行 `git push`命令之后，我调用`git log`查看，发现Author这个栏位是这样的：
-![@||550x0](./1583994118097.png)
+<img src="./img/1583994118097.png" alt="@||550x0" style="zoom:80%;" />
 
 但是这个邮箱是不存在的，或者即便存在，也不可能是我的。应该是当初配置的时候不小心写错了。
 
 我一开始刚到很奇怪，为什么写错的邮箱也能校验通过，我特意到存储公钥的文件里面查询（`$ cat ~/.ssh/id_rsa.pub`）：
 
-![@||600x0](./1583994258246.png)
+<img src="./img/1583994258246.png" alt="@||600x0" style="zoom:80%;" /> 
 
 这个邮箱是公司的邮箱，我用的也是公司的电脑。但是我用这个 `ssh-rsa` 公钥到github上注册添加了。
 
@@ -431,31 +378,30 @@ Hi VarianWryy! You've successfully authenticated, but GitHub does not provide sh
 
 那么最后一个问题，如果用一个不存在的邮箱`push`了代码，github上会怎么显示呢？
 
-![@||400x0](./1583994432017.png)
+<img src="./img/1583994432017.png" alt="@||400x0" style="zoom:80%;" /> 
 
 可以看到，就是一个default的头像和提交的时候的名字，这个头像无法点击查看。
 
-
 最后，我在git的配置文件中找到了那个不存在的邮箱：
-![@||600x0](./1583995554711.png)
-
+<img src="./img/1583995554711.png" alt="@||600x0" style="zoom: 67%;" /> 
 
 该文件夹默认是在 `C:\Users\{你的电脑名称}`目录下：
-![@||360x0](./1583995607772.png)
+<img src="./img/1583995607772.png" alt="@||360x0" style="zoom:80%;" /> 
+
 
 
 ## 6. 牛刀小试
 
 ### 6.1 Clone
 
-![Alt text](./1616391914883.png)
+<img src="./img/1616391914883.png" alt="Alt text" style="zoom:80%;" /> 
 
 
 clone 已有仓库。  
 
 **S1： 打开目标仓库，然后点击【Clone or download】按钮，复制如下的地址。**
 
-![@||400x0](./1583989312887.png)
+<img src="./img/1583989312887.png" alt="@||400x0" style="zoom:80%;" /> 
 
 
 **S2： 打开本地git客户端，执行`git clone`命令：**
@@ -465,7 +411,7 @@ $ git clone git@github.com:VarianWrynn/Tutorial.git
 ```
 
 执行结果：成功讲项目从github上克隆到本地：
-![@||600x0](./1583989361709.png)
+<img src="./img/1583989361709.png" alt="@||600x0" style="zoom:80%;" /> 
 
 **S3： 切换到该项目**
 
@@ -476,14 +422,14 @@ $ git clone git@github.com:VarianWrynn/Tutorial.git
 $ cd Tutorial/
 ```
 
-![@||460x0](./1583989493131.png)
+<img src="./img/1583989493131.png" alt="@||460x0" style="zoom:80%;" /> 
 
-![@||300x0](./1583991478930.png)
+<img src="./img/1583991478930.png" alt="@||300x0" style="zoom:80%;" /> 
 
 
 **S4： 在该项下面手工新增一个text文本，然后使用 `git status`命令查看**
 
-![@||500x0](./1583991113373.png)
+<img src="./img/1583991113373.png" alt="@||500x0" style="zoom:80%;" /> 
 
 由于 **Lee2020-3-12.txt** 还没有添加至 Git 仓库，所以显示为 **Untracked files**。
 
@@ -498,20 +444,20 @@ $ cd Tutorial/
 
 **S2: 再通过 git commit命令提交。**
 
-![@||600x0](./1583991921387.png)
+<img src="./img/1583991921387.png" alt="@||600x0" style="zoom:80%;" /> 
 
  **S3: git log命令查看提交日志。**
 
-![@||600x0](./1583992001109.png)
+<img src="./img/1583992001109.png" alt="@||600x0" style="zoom:80%;" /> 
 
 ### 6.3 push
 完成`git add`、`git commit`之后，打开github页面依然看不到新增的文件。
 
-![@||600x0](./1583992281893.png)
+<img src="./img/1583992281893.png" alt="@||600x0" style="zoom: 67%;" /> 
 
 这时候需要执行 `push` 命令，GitHub 上的仓库就会被更新。
 
-```
+```gas
 Lenovo@DESKTOP-PBJEFFJ MINGW64 ~/Tutorial (Tutorial_Branch)
 $ git push
 Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
@@ -527,13 +473,7 @@ To github.com:VarianWrynn/Tutorial.git
 ```
 
 这时候再刷新github就出现了：
-![@||600x0](./1583992503696.png)
-
-
-
-
-
-
+<img src="./img/1583992503696.png" alt="@||600x0" style="zoom:67%;" /> 
 
 
 
@@ -547,10 +487,7 @@ To github.com:VarianWrynn/Tutorial.git
 
 创建时请不要勾选 **`Initialize this repository with a README`** 选项。因为一旦勾选该选项，GitHub 一侧的仓库就会自动生成 README 文件，从创建之初便与本地仓库失去了整合性。
 
-
-![@||400x0](./1616310477372.png)
-
-
+<img src="./img/1616310477372.png" alt="@||400x0" style="zoom: 80%;" /> 
 
 
 
@@ -560,17 +497,16 @@ To github.com:VarianWrynn/Tutorial.git
 
 在 GitHub 上创建的仓库路径为“**git@github.com:用户名/DesignPatternPractise.git**”。现在我们用 **`git remote add`**命令将它设置成本地仓库的远程仓库 
 
-![Alt text](./1616310499407.png)
+<img src="./img/1616310499407.png" alt="Alt text" style="zoom:67%;" /> 
 
 
-```
+```gas
 $ git remote add origin git@github.com:VarianWrynn/DesignPatternPractise.git
 ```
 
 按照上述格式执行 `git remote add` 命令之后，Git 会自动将 `git@github.com:VarianWrynn/DesignPatternPractise.git`远程仓库的名称设置为 origin（标识符）。
 
-
-![Alt text](./1616310547817.png)
+<img src="./img/1616310547817.png" alt="Alt text" style="zoom:80%;" /> 
 
 
 > [参考：git remote 使用总结（简书）](https://www.jianshu.com/p/83c7ffc9b259)
@@ -579,7 +515,7 @@ $ git remote add origin git@github.com:VarianWrynn/DesignPatternPractise.git
 
 如果想将当前分支下本地仓库中的内容推送给远程仓库，需要用到 git push命令。现在假定我们在 master 分支下进行操作。
 
-```
+```gas
 $ git push -u origin master
 
 Enter passphrase for key '/c/Users/leewo/.ssh/id_rsa':
@@ -609,14 +545,14 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 ### 7.3 推送至 master 以外的分支
 除了 **master** 分支之外，远程仓库也可以创建其他分支。举个例子，我们在本地仓库中创建 **feature-D** 分支，并将它以同名形式 push 至远程仓库。
 
-```
+```gas
 $ git checkout -b feature-D
 Switched to a new branch 'feature-D'
 ```
 
 我们在本地仓库中创建了 feature-D 分支，现在将它 push 给远程仓库并保持分支名称不变。
 
-```
+```gas
 $ git push -u origin feature-D
 
 Total 0 (delta 0), reused 0 (delta 0)

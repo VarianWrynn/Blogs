@@ -27,8 +27,7 @@
 
 这篇是[Github入门笔记](https://www.evernote.com/l/ALrece8X4B9MzIkmhiQfbxOcBBD3Zt-sM7U/)的第二部分，原先的文章章节太长导致马克飞象和Evernote之间的同步比较慢，所以拆分成两篇。
 
-
-![@||520x0](./1616410781546.png)
+<img src="./img/1616410781546.png" alt="@||520x0" style="zoom: 67%;" /> 
 
 
 ## 7.  完整命令参考
@@ -38,7 +37,7 @@
 
 2. 首先在`D:/Lee/`目录下创建 `SSMiniProgram-BG` 文件夹（与远程仓库同名），执行初始化命令：
 
-```
+```gas
 cd SSMiniProgram-BG/
 $ git init
 Initialized empty Git repository in D:/Lee/SSMiniProgram-BG/.git/
@@ -46,7 +45,7 @@ Initialized empty Git repository in D:/Lee/SSMiniProgram-BG/.git/
 
 3. 使用branch和status命令查看状态：
 
-```
+```gas
 $ git branch
 $ git status
 On branch master
@@ -56,12 +55,12 @@ nothing to commit (create/copy files and use "git add" to track)
 
 4.  使用`git remote add orgin`命令讲本地的仓库与原创的仓库链接起来：
 
-```
+```gas
 $ git remote add origin git@github.com:VarianWrynn/SSMiniProgram-BG.git
 ```
 
 5.  在本地仓库添加一些文件，然后使用`add`, `commite`命令提交到本地缓存区
-```
+```gas
 $ git add .
 $ git commote -m "Lee"
 $ git commit -m "Lee"
@@ -72,7 +71,7 @@ $ git commit -m "Lee"
 
 7. 使用`git push -u origin master`推送到远程
 
-```
+```gas
 $ git push -u origin master
 Enter passphrase for key '/c/Users/leewo/.ssh/id_rsa':
 ```
@@ -81,11 +80,15 @@ Enter passphrase for key '/c/Users/leewo/.ssh/id_rsa':
 
 ### Pull request on Github
 
-![Alt text](./1616053858888.png)
+<img src="./img/1616053858888.png" alt="Alt text" style="zoom:80%;" /> 
 
-![Alt text](./1616053919862.png)
 
-![Alt text](./1616054020104.png)
+
+<img src="./img/1616053919862.png" alt="Alt text" style="zoom:80%;" /> 
+
+
+
+<img src="./img/1616054020104.png" alt="Alt text" style="zoom: 67%;" />  
 
 
 
@@ -95,30 +98,30 @@ Enter passphrase for key '/c/Users/leewo/.ssh/id_rsa':
 
 在本地新建一个文件夹，用于存储即将从远程克隆下来的数据，然后打开`git bash`切到该目录下，使用如下命令：
 
-```
+```gas
 $ git clone git@github.com:VarianWrynn/Tutorial.git
 ```
 
 - **Git clone 项目到[本地指定目录](http://www.xiaoshu168.com/linux/294.html)**
 
-```
+```gas
 git -c diff.mnemonicprefix=false -c core.quotepath=false clone --recursive https://git.coding.net/gamedaybyday/HelloGit.git D:\Git\HelloGit
 ```
 
 简单写法：
 
-```
+```gas
 git clone https://git.coding.net/gamedaybyday/HelloGit.git D:\Git\HelloGit
 ```
 
 以上这种写法我在2020-12-14测试无效（可能Mac机器下有效），在Windows下必须先切换到指定的folder下再使用`git clone`命令拉取：
 
-![@||550x0](./1607934485459.png)
+<img src="./img/1607934485459.png" alt="@||550x0" style="zoom:80%;" /> 
 
 
 ### 8.2 git pull -- 获取最新的远程仓库分支
 
-```
+```gas
 Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Lee/Githubs/ShiningStarsMiniProgram (master)
 $ git pull origin master
 
@@ -139,7 +142,7 @@ Fast-forward
 ```
 
 如果没有加上后面的`orgin master`参数，似乎会报错：
-```
+```gas
 Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Github/ShiningStarsMiniProgram (master)
 $ git pull
 Connection reset by 140.82.112.4 port 22
@@ -153,121 +156,16 @@ and the repository exists.
 
 ## 9. Github日常操作遇到问题记录
 
-### 9.1 Git Clone之后提示无仓库信息
 
-今天在公司的机器从Github上使用`git clone`获取一个仓库下来，提示获取成功 :
-
-```
-Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Github/ShiningStarsMiniProgram
-$ git clone git@github.com:VarianWrynn/ShiningStarsMiniProgram.git
-
-----------------------
-
-Cloning into 'ShiningStarsMiniProgram'...
-Warning: Permanently added the RSA host key for IP address '140.82.112.4' to the list of known hosts.
-remote: Enumerating objects: 312, done.
-remote: Counting objects: 100% (312/312), done.
-remote: Compressing objects: 100% (189/189), done.
-Receiving oremote: Total 312 (delta 85), reused 285 (delta 63), pack-reused 0
-Receiving objects: 100% (312/312), 1.39 MiB | 663.00 KiB/s, done.
-Resolving deltas: 100% (85/85), done.
-```
-
-**但是使用常见命令查询报错：**
-
-```
-Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Github/ShiningStarsMiniProgram
-$ git status
-fatal: not a git repository (or any of the parent directories): .git
-
-Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Github/ShiningStarsMiniProgram
-$ git branch
-fatal: not a git repository (or any of the parent directories): .git
-```
-
-然后去Stackoverflow查看，还真遇到相同的问题：
-[《“fatal: Not a git repository (or any of the parent directories)” from git status》](%E2%80%9Cfatal:%20Not%20a%20git%20repository%20%28or%20any%20of%20the%20parent%20directories%29%E2%80%9D%20from%20git%20status)
-
-**You have to actually cd into the directory first**:
-
-```
-$ git clone git://cfdem.git.sourceforge.net/gitroot/cfdem/liggghts
-Cloning into 'liggghts'...
-remote: Counting objects: 3005, done.
-remote: Compressing objects: 100% (2141/2141), done.
-remote: Total 3005 (delta 1052), reused 2714 (delta 827)
-Receiving objects: 100% (3005/3005), 23.80 MiB | 2.22 MiB/s, done.
-Resolving deltas: 100% (1052/1052), done.
-
-$ git status
-fatal: Not a git repository (or any of the parent directories): .git
-$ cd liggghts/
-$ git status
-# On branch master
-nothing to commit (working directory clean)
-```
-
-按照Stackoverflow上操作，问题解决：
-
-```
-$ git clone git://cfdem.git.sourceforge.net/gitroot/cfdem/liggghts
-Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Github
-$ cd ShiningStarsMiniProgram/
-
-Lenovo@DESKTOP-PBJEFFJ MINGW64 /f/Github/ShiningStarsMiniProgram (master)
-$ git branch
-* master
-```
-
-### 9.2 为什么做了大量代码调整，Github上却只有一个commit?
-
-今天对后端新增了一张表，做了大量的[代码调整](https://github.com/VarianWrynn/SSMiniProgram-BG/commit/13da36e3c0c8fc6623129b0ecf22fc7f57a3313e)。
-
-
-
-但是只算一个[commit](https://github.com/VarianWrynn/SSMiniProgram-BG/commits/master):
-
-![@||360x0](./1613741578374.png)
-
-![@删除了6万8千个地方](./1615364091942.png)
-
-
-
-
-
-
-
-
-而且页面上点亮的那个方格很暗淡：
-
-![@||200x0](./1613741590473.png)
-
-
-
-
-
-
-这说明：
-- 代码需要经常Commit，或者Push（待测试）到Server才可以快速点亮。
 
 ### 9.3  What is the difference between 'git pull' and 'git fetch'?
-![Alt text](./1615184393620.png)
+<img src="./img/1615184393620.png" alt="Alt text" style="zoom:80%;" /> 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-**In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.**
+**Ine simplest terms, `git pull` does a `git fetch` followed by a `git merge`.**
 
 You can do a `git fetch` at any time to update your remote-tracking branches under `refs/remotes/<remote>/`.
 
@@ -378,7 +276,7 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 
 在新建了一个WOW[中文对照](https://github.com/VarianWrynn/WOWEnglishName)的Markdown项目的时候，遇到图床一直展示不出来，不论怎么尝试重新上传都不行。
 
-<img src="./1616390507557.png" alt="@||790x0" style="zoom:67%;" /> 
+<img src="./img/1616390507557.png" alt="@||790x0" style="zoom:67%;" /> 
 
 在Google上检索了很久都没有结果（后来才知道国外基本不会遇到这种问题）。最后在中文世界找到了解决方法。
 
@@ -409,7 +307,7 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 ```
 3. 重新打开之前的.md文件即可显示图片
 
-<img src="./1616390553308.png" alt="Alt text" style="zoom: 50%;" />   
+<img src="./img/1616390553308.png" alt="Alt text" style="zoom: 50%;" />   
 
 
 
@@ -429,7 +327,7 @@ To github.com:VarianWrynn/chinese-programmer-wrong-pronunciation.git
 git commit --date="10 day ago" -m "Your commit message" 
 ```
 
-<img src="./image-20220505221246794.png" alt="image-20220505221246794" style="zoom:80%;" /> 
+<img src="./img/image-20220505221246794.png" alt="image-20220505221246794" style="zoom:80%;" /> 
 
 
 
