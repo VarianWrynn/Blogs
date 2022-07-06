@@ -2,7 +2,7 @@
 
 
 
-![5 Git workflows and branching strategy you can use to improve your development process](./images/5_Git_workflows_n_branching_strategy_git-workflow.png)
+<img src="./img/5_Git_workflows_n_branching_strategy_git-workflow.png" alt="5 Git workflows and branching strategy you can use to improve your development process" style="zoom: 50%;" /> 
 
 
 
