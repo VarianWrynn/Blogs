@@ -1,4 +1,4 @@
-# Github在Win下提示Push
+# 设置Git在Win下自动Push
 
 [toc]
 
@@ -138,7 +138,7 @@ This is to stop inconsistencies between the version of ssh you're using (and you
 
 ### 2.1 编写Batch脚本文件
 
-在本机任意目录下新建一个txt文本框，输入如下内如，然后另存为.bat格式。
+在本机任意目录下新建一个txt文本框，输入如下内容，然后另存为.bat格式。
 
 ```gas
 @echo off
@@ -161,7 +161,7 @@ for /d %%i in (%~dp0*) do (
     echo *************************************************************************
     
     echo "%%i"
-    cd /D "%%i"
+    cd /D "%%i" # 这里必须设置 /D才能成功切换盘符 （默认从C切换到其他盘符），否则如果脚本不是在同一个盘符下会允许失败
     
     echo ----------------------------------------- >> F:\Lee\Githubs\logs.txt
     echo %cd% >> F:\Lee\Githubs\logs.txt
@@ -182,7 +182,70 @@ cd ..
 
 
 
-### 如何在Batch下输出log
+- 脚本的第一段是[获取时间戳](https://stackoverflow.com/questions/19131029/how-to-get-date-in-bat-file)，用于给日志提供时间信息
+
+- 原文章提到是在%cd%里面循环处理(`for /d %%i in (%cd%\*) do()`) ，但是根据[这篇文章](https://stackoverflow.com/questions/672693/windows-batch-file-starting-directory-when-run-as-admin)描述
+
+  > Better than `cd` is `pushd` which will
+  >
+  > - change drive letter if starting from `D:\...`
+  > - assign a drive letter if on a UNC network path
+  >
+  > So `pushd %~dp0` is good.
+  >
+  > Good practice is then to call popd when done.
+
+- Use the `/D` [switch to change current drive in addition to changing current directory for a drive](https://stackoverflow.com/questions/22481298/how-to-change-directory-to-run-bat-files-from-different-drive).
+
+  
+
+### 2.2 Task Scheduler设置
+
+S1：
+
+<img src="./img/image-20220707110849294.png" alt="image-20220707110849294" style="zoom:67%;" /> 
+
+
+
+S2：
+
+<img src="./img/image-20220707111150973.png" alt="image-20220707111150973" style="zoom:67%;" /> 
+
+
+
+S3：
+
+<img src="./img/image-20220707111240127.png" alt="image-20220707111240127" style="zoom:67%;" /> 
+
+
+
+S4：
+
+<img src="./img/image-20220707111344811.png" alt="image-20220707111344811" style="zoom:67%;" /> 
+
+
+
+S5：
+
+<img src="./img/image-20220707111735267.png" alt="image-20220707111735267" style="zoom: 67%;" /> 
+
+
+
+S6：
+
+<img src="./img/image-20220707111859367.png" alt="image-20220707111859367" style="zoom:67%;" /> 
+
+
+
+S7：
+
+<img src="./img/image-20220707110700425.png" alt="image-20220707110700425" style="zoom:67%;" /> 
+
+
+
+### 2.3 常见问题
+
+#### 2.3.1 如何在Batch下输出log
 
 参考 [《How can I use a batch file to write to a text file?》](https://stackoverflow.com/questions/19878136/how-can-i-use-a-batch-file-to-write-to-a-text-file)
 
@@ -219,6 +282,10 @@ Notes:
 
 
 
+#### 2.3.2 运行一闪而过
+
+说明运行不成功，遇到异常了。这时候只能通过输出日志到txt来排查。因为命令框一闪而过，看不清楚任何异常。
+
 ## 3. Reference
 
 1. [How to run ssh-add on windows?](https://stackoverflow.com/questions/18683092/how-to-run-ssh-add-on-windows)
@@ -227,3 +294,6 @@ Notes:
 1. [How to make git not prompt for passphrase for ssh key?](https://superuser.com/questions/1010542/how-to-make-git-not-prompt-for-passphrase-for-ssh-key/1655228#1655228)
 1. [SSH Key - Still asking for password and passphrase](https://stackoverflow.com/questions/21095054/ssh-key-still-asking-for-password-and-passphrase?page=1&tab=scoredesc#tab-top)
 1. [Setting-up automatic Git pushing upon file change](https://darencard.net/blog/2017-05-02-auto-git-file/)
+1. [Git: Auto commit contents of a windows folder](https://stackoverflow.com/questions/30310347/git-auto-commit-contents-of-a-windows-folder)
+1. [How to change directory to run .bat files from different drive?](https://stackoverflow.com/questions/22481298/how-to-change-directory-to-run-bat-files-from-different-drive)
+1. [How to get date in BAT file](https://stackoverflow.com/questions/19131029/how-to-get-date-in-bat-file)
